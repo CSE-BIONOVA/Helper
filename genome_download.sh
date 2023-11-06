@@ -7,7 +7,7 @@ do
 	#LINK=$(grep $line $ASSEMBLY_SUMMARY | cut -f20) 
 	#SPECIES_NAME=$(grep $line $ASSEMBLY_SUMMARY | cut -f7)
 	LINK= cut -f20
-	SPECIES= cut -f7
+	SPECIES= cut -f6
 	echo $SPECIES
-	wget $LINK
+	#wget $LINK
 done < $ASSEMBLY_SUMMARY
