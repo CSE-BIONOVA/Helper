@@ -22,7 +22,7 @@ class BadRequestError(Exception):
         super().__init__('%s returned %d' % (url, status_code))
 
 
-def ncbi(kingdom, n_genomes, output):
+def ncbi(kingdom, n_genomes, db, output):
     """download random genomes sequences from ncbi genomes with entrez eutils
         and requests.
 
@@ -38,7 +38,7 @@ def ncbi(kingdom, n_genomes, output):
     Entrez.tool = 'InSilicoSeq'
     Entrez.api_key = 'd784b36672ca73601f4a19c3865775a17207'
     full_id_list = Entrez.read(Entrez.esearch(
-        'assembly',
+        db,
         term='%s[Organism] AND "latest refseq"[filter] AND "complete genome"[filter]'
         % kingdom, retmax=100000))['IdList']
     print(len(full_id_list))
@@ -121,5 +121,6 @@ def filter_plasmids(handle):
             n = len(record)
             largest = record
     return largest
-
-ncbi('Bacteria', 100, 'test.fasta')
+database = sys.argv[1] 
+print(database) 
+ncbi('Bacteria', 100, database, 'test.fasta')

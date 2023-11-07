@@ -1,5 +1,8 @@
-A="../../Genome/Archea/assembly_summary.txt"
+A="../../Genome/Protozoa/assembly_summary.txt"
+B="../../Genome/Protozoa"
 array=()
+a_file="protozoa.csv"
+echo "accession,species" >> a_file
 while IFS=$'\t' read -r -a line 
 do 
 	s=${line[7]} 
@@ -7,15 +10,15 @@ do
 		: 
 	else
 		accession=${line[0]}
-		echo "Acc: $accession"
-		link=${line[19]}
+		url=${line[19]}
+		a=$(basename "$url") 
+		new_a="${a}_genomic.fna.gz"
+		echo $new_a
+		link="$url/$new_a"
+		echo "$link"
 		array+=($s)
 		echo "Species: $s"
-		wget $link
+		wget "$link" -P $B
+		echo "$accession,$s" >> $a_file
 	fi
 done < $A
-filename="bacteria.txt"
-for e in "${array[@]}"
-do 
-	echo "$e" >> "$filename"
-done
