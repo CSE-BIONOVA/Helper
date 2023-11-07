@@ -1,7 +1,8 @@
-A="../../Genome/Protozoa/assembly_summary.txt"
-B="../../Genome/Protozoa"
+species=$1
+A="../../Genome/$species/assembly_summary.txt"
+B="../../Genome/$species"
 array=()
-a_file="protozoa.csv"
+a_file="$species.csv"
 echo "accession,species" >> a_file
 while IFS=$'\t' read -r -a line 
 do 
