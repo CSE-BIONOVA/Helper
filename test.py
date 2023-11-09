@@ -3,8 +3,8 @@ import csv
 import requests
 
 species = input("Enter species name: ")
-assembly_summary_file = "assembly_summary.txt"
-genome_dir = "x"
+assembly_summary_file = f"../../Genome/{species}/assembly_summary.txt"
+genome_dir = f"../../Genome/{species}/"
 accession_species_file = f"{species}.csv"
 accession_species = []
 
