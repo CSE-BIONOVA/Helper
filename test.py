@@ -3,8 +3,8 @@ import csv
 import requests
 
 species = input("Enter species name: ")
-assembly_summary_file = f"../../Genome/{species}/assembly_summary.txt"
-genome_dir = f"../../Genome/{species}"
+assembly_summary_file = "assembly_summary.txt"
+genome_dir = "x"
 accession_species_file = f"{species}.csv"
 accession_species = []
 
@@ -28,7 +28,7 @@ with open(assembly_summary_file, "r") as f:
 			continue
 		fields = line.strip().split("\t")
 		species_name=fields[7]
-		if species_name != accession_species[-1]:
+		if species_name not in accession_species:
 			accession = fields[0]
 			url = fields[19]
 			filename = url.split("/")[-1] + "_genomic.fna.gz"
