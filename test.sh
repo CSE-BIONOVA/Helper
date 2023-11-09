@@ -3,7 +3,13 @@ A="../../Genome/$species/assembly_summary.txt"
 B="../../Genome/$species"
 array=()
 a_file="$species.csv"
-echo "accession,species" >> a_file
+while IFS=$',' read -r -a line 
+do 
+	array+=${line[1]}
+done < $a_file	
+if [ -s "$a_file" ]; then 
+	echo "accession,species" >> a_file
+fi
 while IFS=$'\t' read -r -a line 
 do 
 	s=${line[7]} 

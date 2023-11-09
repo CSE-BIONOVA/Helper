@@ -1,0 +1,895 @@
+#assembly_accession,organism_name
+GCA_004431415.1,Cyanophora paradoxa
+GCA_018806925.1,Skeletonema costatum
+GCA_914521175.1,Phaeodactylum tricornutum
+GCA_019693525.1,Cylindrotheca fusiformis
+GCA_933822405.4,Cylindrotheca closterium
+GCA_000310025.1,Ectocarpus siliculosus
+GCA_000194455.1,Cryptomonas paramecium
+GCA_018327485.1,Symbiodinium microadriaticum
+GCA_905231905.1,Symbiodinium pilosum
+GCA_019702695.1,Amphidinium carterae
+GCA_032358265.1,Vaucheria bursata
+GCA_015146655.1,Ochromonas danica
+GCA_900617105.1,Hydrurus foetidus
+GCA_900893395.1,Euglena gracilis
+GCA_004359215.2,Bremia lactucae
+GCA_003640465.1,Plasmopara halstedii
+GCA_018292905.1,Phytophthora capsici
+GCA_001314365.1,Phytophthora cinnamomi
+GCA_000468175.2,Phytophthora cryptogea
+GCA_012295175.1,Phytophthora infestans
+GCA_001482985.1,Phytophthora nicotianae
+GCA_000509485.1,Phytophthora parasitica
+GCA_031305395.1,Phytophthora citrophthora
+GCA_002215365.1,Phytophthora megakarya
+GCA_012932265.1,Phytophthora palmivora
+GCA_023336225.1,Pythium hydnosporum
+GCA_023334615.1,Pythium torulosum
+GCA_027925865.1,Lagenidium giganteum
+GCA_000331325.2,Crithidia fasciculata
+GCA_000482165.1,Strigomonas oncopelti
+GCA_025688915.1,Leishmania amazonensis
+GCA_024505685.1,Leishmania braziliensis
+GCA_000227135.2,Leishmania donovani
+GCA_017916305.1,Leishmania enriettii
+GCA_020783415.1,Leishmania major
+GCA_003992435.1,Leishmania mexicana
+GCA_014139745.1,Leishmania tropica
+GCA_003992445.1,Leishmania aethiopica
+GCA_902369315.1,Leishmania guyanensis
+GCA_900500625.2,Leishmania infantum
+GCA_902369305.1,Leishmania adleri
+GCA_003664395.1,Leishmania lainsoni
+GCA_000755165.1,Leishmania panamensis
+GCA_001403695.1,Leishmania peruviana
+GCA_001299535.1,Leptomonas seymouri
+GCA_009731335.1,Leishmania tarentolae
+GCA_019096175.1,Trypanosoma brucei
+GCA_002287245.1,Trypanosoma congolense
+GCA_013358655.1,Trypanosoma cruzi
+GCA_001457755.2,Trypanosoma equiperdum
+GCA_917563935.1,Trypanosoma evansi
+GCA_003719475.1,Trypanosoma rangeli
+GCA_019425475.1,Trypanosoma vivax
+GCA_900497135.1,Trypanosoma brucei brucei
+GCA_018683865.1,Endotrypanum monterogeii
+GCA_030849835.1,Herpetomonas samuelpessoai
+GCA_000482205.1,Herpetomonas muscarum
+GCA_002891335.1,Trichomonas vaginalis
+GCA_000498715.1,Giardia intestinalis
+GCA_006247105.1,Giardia muris
+GCA_000193105.1,Acanthamoeba castellanii
+GCA_000826345.1,Acanthamoeba polyphaga
+GCA_001662325.1,Entamoeba histolytica
+GCA_000004985.1,Naegleria gruberi
+GCA_014843625.1,Naegleria fowleri
+GCA_020696425.1,Vermamoeba vermiformis
+GCA_003640415.1,Dictyostelium purpureum
+GCA_000413255.3,Physarum polycephalum
+GCA_031753475.2,Eimeria acervulina
+GCA_905310635.1,Eimeria tenella
+GCA_000499605.1,Eimeria maxima
+GCA_001306235.1,Cryptosporidium parvum
+GCA_019455585.1,Toxoplasma gondii
+GCA_900095545.1,Plasmodium berghei
+GCA_900002375.2,Plasmodium berghei ANKA
+GCA_023973825.1,Plasmodium brasilianum
+GCA_900095625.1,Plasmodium chabaudi adami
+GCA_900180395.1,Plasmodium cynomolgi
+GCA_900617135.1,Plasmodium falciparum
+GCA_000150335.1,Plasmodium falciparum RO-33
+GCA_000521115.1,Plasmodium falciparum CAMP/Malaysia
+GCA_000150355.1,Plasmodium falciparum K1
+GCA_000401695.2,Plasmodium falciparum NF54
+GCA_900005855.1,Plasmodium gallinaceum
+GCA_023845515.1,Plasmodium knowlesi
+GCA_000006355.3,Plasmodium knowlesi strain H
+GCA_000723685.1,Plasmodium reichenowi
+GCA_014843685.1,Plasmodium vivax
+GCA_000956335.1,Plasmodium fragile
+GCA_900090045.1,Plasmodium malariae
+GCA_903994265.1,Plasmodium vinckei
+GCA_900617845.1,Plasmodium yoelii
+GCA_020449125.1,Babesia bovis
+GCA_000723445.1,Babesia bigemina
+GCA_001650075.1,Babesia microti
+GCA_023705535.2,Babesia ovis
+GCA_024862765.1,Babesia caballi
+GCA_002189625.1,Theileria equi
+GCA_000003225.1,Theileria annulata
+GCA_014884835.1,Theileria parva
+GCA_000715435.1,Paramecium caudatum
+GCA_905182975.1,Paramecium primaurelia
+GCA_000165425.1,Paramecium tetraurelia
+GCA_000260095.1,Tetrahymena borealis
+GCA_016584475.1,Tetrahymena thermophila
+GCA_000220395.1,Ichthyophthirius multifiliis
+GCA_946863485.1,Moneuplotes crassus
+GCA_030463445.1,Euplotes aediculatus
+GCA_027382585.1,Euplotes woodruffi
+GCA_000751175.1,Stylonychia lemnae
+GCA_001970955.1,Stentor coeruleus
+GCA_006369765.1,Halteria grandinella
+GCA_023806985.1,Isotricha prostoma
+GCA_000151665.1,Blastocystis hominis
+GCA_001593455.1,Cryptosporidium baileyi
+GCA_020283715.1,Cytauxzoon felis
+GCA_951851835.1,Hexamita inflata
+GCA_000482145.1,Strigomonas culicis
+GCA_000826325.1,Acanthamoeba palestinensis
+GCA_016097395.1,Neospora caninum
+GCA_000826285.1,Acanthamoeba lenticulata
+GCA_013187285.1,Cyclotella cryptica
+GCA_002081965.1,Phytophthora cactorum
+GCA_900095605.1,Plasmodium chabaudi chabaudi
+GCA_018340825.1,Plasmodium yoelii nigeriensis
+GCA_018398725.1,Babesia divergens
+GCA_013115115.1,Perkinsus olseni
+GCA_000826385.1,Acanthamoeba rhysodes
+GCA_000826365.1,Acanthamoeba royreba
+GCA_030849525.1,Babesia gibsoni
+GCA_014885115.2,Asterionellopsis glacialis
+GCA_008330645.1,Cafeteria roenbergensis
+GCA_031763025.1,Macrocystis pyrifera
+GCA_918797485.1,Pelagomonas calceolata
+GCA_019702425.1,Pelagococcus subviridis
+GCA_001715585.1,Plasmodium falciparum 3D7
+GCA_900090025.2,Plasmodium ovale
+GCA_023336235.1,Globisporangium irregulare
+GCA_001880345.2,Euplotes focardii
+GCA_018136815.1,Isochrysis galbana
+GCA_001049375.1,Plasmodiophora brassicae
+GCA_030849725.1,Trypanosoma boissoni
+GCA_001652855.1,Prorocentrum minimum
+GCA_000410695.2,Leishmania arabica
+GCA_000443025.1,Leishmania gerbilli
+GCA_001499635.1,Condylostoma magnum
+GCA_023806945.1,Dasytricha ruminantium
+GCA_005966545.1,Pythium oligandrum
+GCA_003693705.1,Polymyxa betae
+GCA_002914575.1,Entamoeba moshkovskii
+GCA_900088475.1,Hyphochytrium catenoides
+GCA_012862495.1,Thraustochytrium aureum
+GCA_002245135.1,Proteromonas lacertae
+GCA_000875885.1,Sarcocystis neurona
+GCA_023091735.1,Trichomonas tenax
+GCA_905182995.1,Paramecium octaurelia
+GCA_905183005.1,Paramecium pentaurelia
+GCA_000826265.1,Acanthamoeba culbertsoni
+GCA_030849755.1,Trypanosoma avium
+GCA_021029045.1,Aureococcus anophagefferens
+GCA_014466975.1,Leishmania chagasi
+GCA_000499745.2,Eimeria mitis
+GCA_000826945.1,Eimeria nieschulzi
+GCA_000211355.2,Astrammina rara
+GCA_000512085.1,Reticulomyxa filosa
+GCA_023807185.1,Epidinium caudatum
+GCA_023783175.1,Diplodinium dentatum
+GCA_023783355.1,Polyplastron multivesiculatum
+GCA_023806885.1,Isotricha intestinalis
+GCA_002087855.3,Entodinium caudatum
+GCA_014849475.1,Fucus vesiculosus
+GCA_000499725.1,Eimeria brunetti
+GCA_000499385.1,Eimeria necatrix
+GCA_000499445.1,Eimeria praecox
+GCA_030849745.1,Trypanosoma scelopori
+GCA_027563015.1,Naegleria lovaniensis
+GCA_022496095.1,Willaertia magna
+GCA_015143345.1,Mallomonas annulata
+GCA_000443045.1,Phytophthora cambivora
+GCA_007655245.1,Phytophthora citricola
+GCA_002025845.1,Phytophthora fragariae
+GCA_016880985.1,Phytophthora idaei
+GCA_900617805.1,Plasmodium vinckei vinckei
+GCA_000002975.1,Guillardia theta
+GCA_008369845.1,Trichomonas gallinae
+GCA_000150435.3,Plasmodium falciparum 7G8
+GCA_000149795.1,Plasmodium falciparum Dd2
+GCA_000521095.1,Plasmodium falciparum Palo Alto/Uganda
+GCA_000482105.1,Crithidia acanthocephali
+GCA_903995115.1,Angomonas deanei
+GCA_000482185.1,Angomonas desouzai
+GCA_030849055.1,Crithidia thermophila
+GCA_000826425.1,Acanthamoeba lugdunensis
+GCA_000441995.1,Leishmania turanica
+GCA_027475745.1,Pythium aphanidermatum
+GCA_000733385.1,Paramecium biaurelia
+GCA_000733375.1,Paramecium sexaurelia
+GCA_905182985.1,Paramecium sonneborni
+GCA_000313105.1,Albugo candida
+GCA_000826245.1,Acanthamoeba astronyxis
+GCA_002025285.1,Acanthamoeba comandoni
+GCA_000826305.1,Acanthamoeba healyi
+GCA_000826505.1,Acanthamoeba pearcei
+GCA_001262475.1,Balamuthia mandrillaris
+GCA_002087225.1,Trypanosoma theileri
+GCA_011947325.1,Phytophthora macrochlamydospora
+GCA_009848525.1,Phytophthora sojae
+GCA_024679005.1,Phytophthora syringae
+GCA_016169925.1,Phytophthora vignae
+GCA_003072545.3,Theileria orientalis
+GCA_900404475.1,Spongospora subterranea
+GCA_000691245.1,Trypanosoma grayi
+GCA_030849715.1,Trypanosoma mega
+GCA_001614215.1,Nannochloropsis gaditana
+GCA_032358315.1,Ophiocytium majus
+GCA_000003085.2,Plasmodium yoelii yoelii
+GCA_020975765.1,Undaria pinnatifida
+GCA_002081575.1,Thraustotheca clavata
+GCA_016759035.1,Paramecium bursaria
+GCA_001460835.1,Bodo saltans
+GCA_002157705.1,Plasmodium gonderi
+GCA_014706105.1,Phytophthora quercina
+GCA_012295475.1,Phytophthora gonapodyides
+GCA_000277485.1,Dictyostelium firmibasis
+GCA_023335435.1,Globisporangium splendens
+GCA_023334415.1,Phytopythium chamaehyphon
+GCA_023337545.1,Pythium coloratum
+GCA_023336355.1,Pythium dissotocum
+GCA_023336255.1,Pythium graminicola
+GCA_023336345.1,Pythium inflatum
+GCA_023334085.1,Globisporangium middletonii
+GCA_023091665.1,Pythium myriotylum
+GCA_023334075.1,Globisporangium nunn
+GCA_023336075.1,Pythium periplocum
+GCA_023334975.1,Globisporangium sylvaticum
+GCA_023334535.1,Pythium vanterpoolii
+GCA_023334575.1,Pythium volutum
+GCA_014529505.1,Cryptosporidium felis
+GCA_003719485.1,Trypanosoma conorhini
+GCA_027475705.1,Pythium catenulatum
+GCA_002271815.1,Eimeria falciformis
+GCA_000300495.1,Trypanosoma cruzi marinkellei
+GCA_002219105.2,Trypanosoma cruzi cruzi
+GCA_900005765.1,Plasmodium relictum
+GCA_947650345.1,Peronospora destructor
+GCA_022244645.1,Thraustochytrium striatum
+GCA_008828725.1,Saccharina japonica
+GCA_001305735.1,Cyclospora cayetanensis
+GCA_023335885.1,Pythium porphyrae
+GCA_905237095.1,Polarella glacialis
+GCA_001655075.1,Diplonema papillatum
+GCA_023336165.1,Pythium monospermum
+GCA_001593445.1,Cryptosporidium meleagridis
+GCA_001273305.2,Sterkiella histriomuscorum
+GCA_002563875.1,Besnoitia besnoiti
+GCA_015148605.1,Chromulina nebulosa
+GCA_000447165.1,Hammondia hammondi
+GCA_935752815.1,uncultured eukaryote
+GCA_021527685.1,Aphanomyces euteiches
+GCA_002812785.1,Phytophthora litchii
+GCA_009767595.1,Symbiodinium kawagutii
+GCA_023335875.1,Elongisporangium prolatum
+GCA_023336405.1,Globisporangium echinulatum
+GCA_023334105.1,Globisporangium nodosum
+GCA_023334055.1,Globisporangium ornacarpum
+GCA_000765095.1,Mastigamoeba balamuthi
+GCA_019155685.1,Phytophthora boehmeriae
+GCA_000223845.4,Gregarina niphandrodes
+GCA_030141585.1,Ophryocystis elektroscirrha
+GCA_003546545.1,Aphanomyces astaci
+GCA_019828595.1,Aphanomyces cochlioides
+GCA_023337775.1,Pythium aquatile
+GCA_000764265.1,Pythium insidiosum
+GCA_023334135.1,Globisporangium erinaceum
+GCA_023336215.1,Globisporangium iwayamae
+GCA_023336125.1,Globisporangium mamillatum
+GCA_023334015.1,Globisporangium paddicum
+GCA_023334565.1,Globisporangium ultimum var. sporangiiferum
+GCA_001835735.1,Cryptosporidium andersoni
+GCA_031213475.1,Nereocystis luetkeana
+GCA_019059605.1,Rhabdomonas costata
+GCA_903994205.1,Plasmodium vinckei brucechwatti
+GCA_024211575.1,Phytophthora melonis
+GCA_900243725.1,Aphanomyces stellatus
+GCA_001614225.1,Nannochloropsis limnetica
+GCA_023333865.1,Globisporangium perplexum
+GCA_029452305.1,Hyaloperonospora parasitica
+GCA_024867545.1,Phytopythium helicoides
+GCA_023337975.1,Phytopythium ostracodes
+GCA_023334555.1,Elongisporangium undulatum
+GCA_023338225.1,Halophytophthora batemanensis
+GCA_002887195.1,Chrysochromulina parva
+GCA_024679175.1,Phytophthora cajani
+GCA_020226015.1,Phytophthora colocasiae
+GCA_000333055.2,Phytophthora lateralis
+GCA_002025925.1,Phytophthora rubi
+GCA_006510565.1,Diophrys appendiculata
+GCA_900092245.1,Acytostelium leptosomum
+GCA_000277445.1,Polysphondylium violaceum
+GCA_011947345.1,Phytophthora quininea
+GCA_920940705.1,Peronospora farinosa
+GCA_020186115.1,Histomonas meleagridis
+GCA_000149665.2,Plasmodium falciparum HB3
+GCA_903994225.1,Plasmodium vinckei lentum
+GCA_000524515.1,Plasmodium vinckei petteri
+GCA_023337755.1,Pythium aristosporum
+GCA_023336395.1,Elongisporangium dimorphum
+GCA_900092265.1,Coremiostelium polycephalum
+GCA_001974925.1,Plasmopara viticola
+GCA_000252605.1,Pseudoperonospora cubensis
+GCA_004519485.1,Nannochloropsis oceanica
+GCA_902749335.1,Acanthamoeba triangularis
+GCA_023334115.1,Globisporangium megalacanthum
+GCA_023333755.1,Globisporangium uncinulatum
+GCA_023337495.1,Pythium diclinum
+GCA_023336095.1,Pythium pectinolyticum
+GCA_000520115.1,Aphanomyces invadans
+GCA_001293395.1,Leptomonas pyrrhocoris
+GCA_001638955.2,Euglena gracilis var. bacillaris
+GCA_000172235.1,Ascogregarina taiwanensis
+GCA_019693575.1,Thalassiosira oceanica
+GCA_003991265.1,Pseudoperonospora humuli
+GCA_019297675.1,Hyaloperonospora brassicae
+GCA_002933675.1,Sclerospora graminicola
+GCA_003640485.1,Plasmopara obducens
+GCA_000149735.1,Phytophthora ramorum
+GCA_016618085.1,Neovahlkampfia damariscottae
+GCA_937658345.1,Tetramitus jugosus
+GCA_032273145.1,Pterygophora californica
+GCA_023336285.1,Pythium grandisporangium
+GCA_019677205.1,Pinguiococcus pyrenoidosus
+GCA_024679115.1,Phytophthora pistaciae
+GCA_024679025.1,Phytophthora hibernalis
+GCA_018295905.1,Euplotes sp.
+GCA_002151225.1,Paramoeba pemaquidensis
+GCA_030463285.1,Phytophthora europaea
+GCA_024679075.1,Phytophthora uliginosa
+GCA_021440025.1,Euplotes parawoodruffi
+GCA_023334035.1,Globisporangium okanoganense
+GCA_023334305.1,Globisporangium canariense
+GCA_900660405.1,Pseudo-nitzschia multistriata
+GCA_000002445.1,Trypanosoma brucei brucei TREU927
+GCA_902825245.1,Fragilariopsis kerguelensis
+GCA_023334255.1,Globisporangium cylindrosporum
+GCA_949319695.1,uncultured ciliate
+GCA_024679045.1,Phytophthora brassicae
+GCA_002897235.1,Babesia ovata
+GCA_023334355.1,Globisporangium abappressorium
+GCA_023334275.1,Globisporangium carolinianum
+GCA_032432875.1,Phytophthora meadii
+GCA_030180075.1,Mikrocytos mackini
+GCA_027243985.1,Cryptosporidium canis
+GCA_947331455.1,Plasmodium cf. malariae
+GCA_000826465.1,Acanthamoeba mauritaniensis
+GCA_019828565.1,Carpediemonas membranifera
+GCA_000826405.1,Acanthamoeba divionensis
+GCA_000725905.1,Plasmodium coatneyi
+GCA_002256025.1,Asterionella formosa
+GCA_022925895.1,Fragilaria crotonensis
+GCA_000826445.1,Acanthamoeba quina
+GCA_023338065.1,Phytopythium montanum
+GCA_012295425.1,Phytophthora pseudosyringae
+GCA_008636045.1,Streblomastix strix
+GCA_023333795.1,Globisporangium rhizosaccharum
+GCA_000982615.1,Phytomonas sp. Hart1
+GCA_000002455.1,Bigelowiella natans
+GCA_002099245.1,Peronospora tabacina
+GCA_026184515.1,Peronosclerospora sorghi
+GCA_905221625.1,Symbiodinium sp. KB8
+GCA_023334175.1,Globisporangium debaryanum
+GCA_018342955.1,Cryptosporidium hominis
+GCA_032273165.1,Chlorellidium tetrabotrys
+GCA_016169935.1,Phytophthora vignae f. sp. adzukicola
+GCA_023333705.1,Globisporangium viniferum
+GCA_000203815.1,Cavenderia fasciculata
+GCA_019693545.1,Chaetoceros muellerii
+GCA_001447515.1,Pseudocohnilembus persalinus
+GCA_030871285.1,Skeletonema marinoi
+GCA_001414525.1,Hyaloperonospora arabidopsidis
+GCA_000372725.1,Emiliania huxleyi CCMP1516
+GCA_900617835.1,Plasmodium yoelii killicki
+GCA_002216585.1,Crithidia bombi
+GCA_023337575.1,Pythium chondricola
+GCA_023337915.1,Pythium angustatum
+GCA_023337875.1,Pythium apleroticum
+GCA_023335905.1,Pythium pyrilobum
+GCA_023337935.1,Elongisporangium anandrum
+GCA_023336425.1,Phytopythium cucurbitacearum (nom. inval.)
+GCA_023337905.1,Pythium amasculinum
+GCA_023336295.1,Pythium folliculosum
+GCA_023335855.1,Pythium scleroteichum
+GCA_023336445.1,Pythium dissimile
+GCA_023336035.1,Pythium plurisporium
+GCA_023333825.1,Globisporangium radiosum
+GCA_023333885.1,Globisporangium parvum
+GCA_023335995.1,Globisporangium nagaii
+GCA_000208925.2,Entamoeba histolytica HM-1:IMSS
+GCA_023334215.1,Globisporangium cystogenes
+GCA_000149405.2,Thalassiosira pseudonana CCMP1335
+GCA_900291995.1,Licmophora abbreviata
+GCA_000439335.1,Phytophthora x alni
+GCA_027475725.1,Pythium rhizo-oryzae
+GCA_947596155.1,uncultured Oligohymenophorea
+GCA_017506865.1,Tribonema minus
+GCA_019593585.1,Nitzschia palea
+GCA_019154785.2,Nitzschia inconspicua
+GCA_013375675.1,Dictyostelium rosarium
+GCA_033042605.1,Pleurophycus gardneri
+GCA_001742925.1,Cladosiphon okamuranus
+GCA_009768925.2,Cryptosporidium bovis
+GCA_013420745.1,Pseudokeronopsis flava
+GCA_000189635.1,Tetrahymena thermophila SB210
+GCA_024220525.1,Cochliopodium minus
+GCA_023335925.1,Pythium phragmitis
+GCA_028658345.1,Babesia duncani
+GCA_001712715.2,Phytophthora kernoviae
+GCA_013115145.1,Perkinsus chesapeaki
+GCA_021439955.1,Certesia quadrinucleata
+GCA_000165365.1,Theileria parva strain Muguga
+GCA_023338075.1,Phytopythium litorale
+GCA_022984795.1,Fabrea salina
+GCA_027972325.1,Paratrimastix pyriformis
+GCA_916722125.1,Leishmania major strain Friedlin
+GCA_000497125.2,Spironucleus salmonicida
+GCA_023337825.1,Pythium apiculatum
+GCA_000004695.1,Dictyostelium discoideum AX4
+GCA_000006425.2,Cryptosporidium hominis TU502
+GCA_000165345.1,Cryptosporidium parvum Iowa II
+GCA_010577775.2,Strombidium stylifer
+GCA_001687465.1,Halocafeteria seosinensis
+GCA_023805665.1,Entodinium bursa
+GCA_023805525.1,Ostracodinium dentatum
+GCA_023783335.1,Enoploplastron triloricatum
+GCA_023783415.1,Ophryoscolex caudatus
+GCA_023783255.1,Ostracodinium gracile
+GCA_023805755.1,Eremoplastron rostratum
+GCA_013375695.1,Dictyostelium brefeldianum
+GCA_015252635.1,Dictyostelium capitatum
+GCA_000286055.1,Dictyostelium citrinum
+GCA_000277465.1,Dictyostelium intermedium
+GCA_001606155.1,Tieghemostelium lacteum
+GCA_900092255.1,Synstelium polycarpum
+GCA_003667305.1,Speleostelium caveatum
+GCA_900092275.1,Cavenderia deminutiva
+GCA_900092235.1,Rostrostelium ellipticum
+GCA_000327425.1,Trypanosoma cruzi strain Esmeraldo
+GCA_000209125.2,Entamoeba dispar SAW760
+GCA_000330505.1,Entamoeba invadens IP1
+GCA_030849075.1,Zelonia costaricensis
+GCA_023335655.1,Globisporangium spiculum
+GCA_937871795.1,uncultured Bacillariales
+GCA_001593265.1,Toxoplasma gondii RH
+GCA_006510595.1,Pseudokeronopsis carnea
+GCA_000142945.1,Phytophthora infestans T30-4
+GCA_026262505.1,Trichomonas vaginalis G3
+GCA_024679135.1,Phytophthora foliorum
+GCA_032270885.1,Saccharina sessilis
+GCA_000002845.2,Leishmania braziliensis MHOM/BR/75/M2904
+GCA_000006405.1,Perkinsus marinus ATCC 50983
+GCA_030849805.1,Sergeia podlipaevii
+GCA_021927905.1,Chaetoceros tenuissimus
+GCA_000492115.1,Trypanosoma rangeli SC58
+GCA_003730235.1,Pythium guiyangense
+GCA_027406445.1,Blastocystis sp. subtype 8
+GCA_000143045.1,Globisporangium ultimum DAOM BR144
+GCA_000150015.2,Toxoplasma gondii VEG
+GCA_000002875.2,Leishmania infantum JPCM5
+GCA_021441645.1,Uronychia binucleata
+GCA_021439965.1,Uronychia setigera
+GCA_000006515.1,Cryptosporidium muris RN66
+GCA_935749445.1,uncultured Blastocystis sp.
+GCA_015146095.1,Dinobryon divergens
+GCA_000142905.1,Thecamonas trahens ATCC 50062
+GCA_002095265.1,Babesia sp. Xinjiang
+GCA_000018645.1,Hemiselmis andersenii
+GCA_002081555.1,Protostelium mycophagum
+GCA_015476325.1,Cardiosporidium cionae
+GCA_001651215.1,Blastocystis sp. ATCC 50177/Nand II
+GCA_000150455.3,Plasmodium falciparum Santa Lucia
+GCA_000150415.1,Plasmodium falciparum D6
+GCA_000150395.1,Plasmodium falciparum D10
+GCA_000150375.1,Plasmodium falciparum FCC-2/Hainan
+GCA_000150315.1,Plasmodium falciparum Senegal_V34.04
+GCA_000150295.1,Plasmodium falciparum VS/1
+GCA_000582765.1,Phytomonas sp. EM1
+GCA_002600585.1,Cystoisospora suis
+GCA_026770615.1,Pavlovales sp. CCMP2436
+GCA_026770575.1,Pelagophyceae sp. CCMP2097
+GCA_026770595.1,Ochromonadaceae sp. CCMP2298
+GCA_000165395.2,Babesia bovis T2Bo
+GCA_023336015.1,Pythium ornamentatum
+GCA_000585135.1,Chromera velia
+GCA_009859145.1,Andalucia godoyi
+GCA_000149715.2,Toxoplasma gondii GT1
+GCA_014706125.1,Phytophthora ohioensis (nom. inval.)
+GCA_000006565.2,Toxoplasma gondii ME49
+GCA_009792415.2,Cryptosporidium ryanae
+GCA_008632985.1,Psammoneis japonica
+GCA_015145745.1,Poterioochromonas sp. DS
+GCA_023337535.1,Globisporangium cryptoirregulare
+GCA_000500225.2,Phytophthora pinifolia
+GCA_024679295.1,Phytophthora parvispora
+GCA_029379255.1,Theileria luwenshuni
+GCA_013122855.1,Peronospora effusa
+GCA_032158285.1,Phytophthora sansomeana
+GCA_000150955.2,Phaeodactylum tricornutum CCAP 1055/1
+GCA_000173235.2,Hyaloperonospora arabidopsidis Emoy2
+GCA_004764695.1,Schizochytrium sp. TIO01
+GCA_004337835.1,Cryptosporidium cuniculus
+GCA_903772945.1,Seminavis robusta
+GCA_000208865.2,Neospora caninum Liverpool
+GCA_000186025.2,Plasmodium falciparum RAJ116
+GCA_000186055.2,Plasmodium falciparum IGH-CR14
+GCA_001314345.1,Phytophthora multivora
+GCA_000182405.1,Giardia intestinalis ATCC 50581
+GCA_023807305.1,Entodinium longinucleatum
+GCA_002911725.1,Phytophthora palmivora var. palmivora
+GCA_020283495.1,Phytophthora cinnamomi var. cinnamomi
+GCA_920618645.1,Peronospora belbahrii
+GCA_003543875.1,Trypanosoma brucei equiperdum
+GCA_963210315.1,Rhynchopus euleeides
+GCA_905221615.1,Symbiodinium sp. CCMP2592
+GCA_001750085.1,Fragilariopsis cylindrus CCMP1102
+GCA_002247145.1,Phytophthora plurivora
+GCA_000698435.2,Lotharella oceanica
+GCA_023335835.1,Elongisporangium senticosum
+GCA_023333735.1,Globisporangium takayamanum
+GCA_900097045.1,Plasmodium gaboni
+GCA_902706625.1,Albugo laibachii
+GCA_947538825.1,uncultured Thalassiosira
+GCA_023334195.1,Globisporangium emineosum
+GCA_023337595.1,Globisporangium camurandrum
+GCA_023611945.1,Phytophthora pini
+GCA_000182665.1,Giardia lamblia P15
+GCA_947538835.1,uncultured Chrysochromulina
+GCA_000004825.1,Heterostelium album PN500
+GCA_002154235.1,Thraustochytrium sp. ATCC 26185
+GCA_000210295.1,Trypanosoma brucei gambiense DAL972
+GCA_001653735.1,Uroleptopsis citrina
+GCA_000151545.2,Saprolegnia parasitica CBS 223.65
+GCA_026770585.1,Cryptophyta sp. CCMP2293
+GCA_015146115.1,Spumella sp. AR4D6
+GCA_001625125.1,Haemoproteus tartakovskyi
+GCA_023338135.1,Phytopythium kandeliae
+GCA_024679195.1,Phytophthora cinnamomi var. robiniae
+GCA_022059095.1,Trypanosoma melophagium
+GCA_900240055.1,Plasmodium sp. DRC-Itaito
+GCA_030267965.1,Triparma columacea
+GCA_000320545.1,Bigelowiella natans CCMP2755
+GCA_000325865.3,Stylonychia lemnae 2x8/2
+GCA_007210665.1,Cryptosporidium tyzzeri
+GCA_023338205.1,Halophytophthora polymorphica
+GCA_000247585.2,Phytophthora parasitica INRA-310
+GCA_949795235.1,Phytophthora capsici LT1534
+GCA_023334395.1,Phytopythium sindhum
+GCA_900240875.1,Crithidia expoeki
+GCA_002216535.1,Crithidia mellificae
+GCA_003568945.1,Kipferlia bialata
+GCA_001835705.1,Cryptosporidium ubiquitum
+GCA_000331345.1,Leishmania major strain LV39c5
+GCA_000250755.2,Leishmania major strain SD 75.1
+GCA_900088555.1,Plasmodium ovale curtisi
+GCA_900088545.1,Plasmodium ovale wallikeri
+GCA_902705575.1,Ectocarpus sp. CCAP 1310/34
+GCA_000740895.1,Theileria orientalis strain Shintoku
+GCA_905221605.1,Symbiodinium natans
+GCA_900095595.1,Plasmodium sp. gorilla clade G1
+GCA_900097015.1,Plasmodium sp. gorilla clade G2
+GCA_900097035.1,Plasmodium sp. gorilla clade G3
+GCA_015252675.1,Dictyostelium gargantuum
+GCA_018466815.1,Entamoeba histolytica DS4-868
+GCA_000338855.1,Entamoeba histolytica KU27
+GCA_019059535.1,Entamoeba histolytica KU48
+GCA_020283535.1,Entamoeba histolytica KU50
+GCA_020283505.1,Entamoeba histolytica MS96-3382
+GCA_000346345.1,Entamoeba histolytica HM-3:IMSS
+GCA_000365475.1,Entamoeba histolytica HM-1:IMSS-A
+GCA_000344925.1,Entamoeba histolytica HM-1:IMSS-B
+GCA_000315625.1,Guillardia theta CCMP2712
+GCA_003413675.1,Phytopythium vexans
+GCA_020283525.1,Albugo candida 2VRR
+GCA_019693425.1,Fistulifera pelliculosa
+GCA_000331405.1,Trypanosoma cruzi JR cl. 4
+GCA_000234665.4,Leishmania mexicana MHOM/GT/2001/U1103
+GCA_011947335.1,Phytophthora constricta
+GCA_000224845.2,Toxoplasma gondii VAND
+GCA_000224805.2,Toxoplasma gondii RUB
+GCA_001493575.1,Giardia intestinalis assemblage A
+GCA_000224865.2,Toxoplasma gondii MAS
+GCA_000224885.2,Toxoplasma gondii p89
+GCA_000224825.2,Toxoplasma gondii TgCATBr9
+GCA_000259835.1,Toxoplasma gondii TgCATBr5
+GCA_000256705.2,Toxoplasma gondii CAST
+GCA_000224905.2,Toxoplasma gondii FOU
+GCA_027406405.1,Blastocystis sp. subtype 1
+GCA_000963365.1,Blastocystis sp. subtype 2
+GCA_029240965.1,Blastocystis sp. subtype 3
+GCA_937873115.1,Blastocystis sp. subtype 4
+GCA_944391175.1,Blastocystis sp. subtype 6
+GCA_023336175.1,Globisporangium lucens
+GCA_023336105.1,Pythium lycopersicum
+GCA_023334995.1,Pythium sukuiense
+GCA_023338025.1,Phytopythium oedochilum
+GCA_023334545.1,Salisapilia sapeloensis
+GCA_019695575.1,Angomonas ambiguus
+GCA_000482125.1,Strigomonas galati
+GCA_026419775.1,Acrasis kona
+GCA_004335385.1,Nannochloropsis oceanica CCMP531
+GCA_001614235.1,Nannochloropsis oceanica OZ-1
+GCA_001614245.1,Nannochloropsis salina CCMP1776
+GCA_004335465.1,Nannochloropsis salina CCMP537
+GCA_000320645.2,Plasmodium vivax Brazil I
+GCA_000320685.2,Plasmodium vivax North Korean
+GCA_000320665.2,Plasmodium vivax Mauritania I
+GCA_000521015.1,Plasmodium falciparum Vietnam Oak-Knoll (FVO)
+GCA_000521155.1,Plasmodium falciparum FCH/4
+GCA_000521055.1,Plasmodium falciparum Tanzania (2000708)
+GCA_000521075.1,Plasmodium falciparum NF135/5.C10
+GCA_000521035.1,Plasmodium falciparum MaliPS096_E11
+GCA_003667245.1,Heterostelium multicystogenum
+GCA_023333775.1,Pythium sp. CBS 101876
+GCA_023338115.1,Phytopythium boreale
+GCA_000227375.1,Trypanosoma vivax Y486
+GCA_003013265.1,Trypanosoma congolense IL3000
+GCA_000250965.2,Toxoplasma gondii ARI
+GCA_000338675.2,Toxoplasma gondii COUG
+GCA_000231845.2,Tetrahymena malaccensis 436
+GCA_000231825.2,Tetrahymena elliotti 4EA
+GCA_000257125.1,Entamoeba nuttalli P19
+GCA_944320215.1,Blastocystis sp. subtype 7
+GCA_000320625.2,Plasmodium vivax India VII
+GCA_000240725.1,Nannochloropsis gaditana CCMP526
+GCA_023807265.1,Metadinium minorum
+GCA_008000375.1,Poteriospumella lacustris
+GCA_015143685.1,Pedospumella encystans
+GCA_015148565.1,Spumella vulgaris
+GCA_000321355.1,Plasmodium cynomolgi strain B
+GCA_000325525.2,Toxoplasma gondii GAB2-2007-GAL-DOM2
+GCA_000256725.2,Toxoplasma gondii TgCatPRC2
+GCA_023338175.1,Phytopythium delawarense
+GCA_024679225.1,Phytophthora pisi
+GCA_000691945.2,Babesia microti strain RI
+GCA_000498555.1,Heterococcus sp. DN1
+GCA_905133005.1,Tritrichomonas foetus
+GCA_026724335.1,Theileria parva parva
+GCA_026724375.1,Theileria parva lawrencei
+GCA_000281045.1,Saprolegnia diclina VS20
+GCA_018398765.1,Chromera velia CCMP2878
+GCA_001179505.1,Vitrella brassicaformis CCMP3155
+GCA_001297925.1,Oxytricha trifallax
+GCA_004337795.1,Cryptosporidium viatorum
+GCA_000278365.1,Toxoplasma gondii CtCo5
+GCA_000286095.1,Chroomonas mesostigmatica CCMP1168
+GCA_003676415.1,Plasmopara muralis
+GCA_002081595.1,Achlya hypogyna
+GCA_000444285.2,Leishmania aethiopica L147
+GCA_000410715.1,Leishmania tropica L590
+GCA_000365225.1,Trypanosoma cruzi Tula cl2
+GCA_000283395.1,Leishmania donovani Ld 2001
+GCA_000387445.2,Pythium aphanidermatum DAOM BR444
+GCA_000387505.2,Pythium arrhenomanes ATCC 12531
+GCA_000387425.2,Globisporangium irregulare DAOM BR486
+GCA_000387465.2,Globisporangium iwayamae DAOM BR242034
+GCA_000387525.2,Globisporangium ultimum var. sporangiiferum BR650
+GCA_000387545.2,Phytopythium vexans DAOM BR484
+GCA_014524975.1,Schmidingerella arcuata
+GCA_000524495.1,Plasmodium inui San Antonio 1
+GCA_000401715.2,Plasmodium falciparum UGT5.1
+GCA_000316305.1,Leishmania donovani Ld 39
+GCA_001861045.1,Plasmodium falciparum 58.1
+GCA_001861075.1,Plasmodium falciparum 303.1
+GCA_001861135.1,Plasmodium falciparum 309.1
+GCA_001861165.1,Plasmodium falciparum 318.1
+GCA_001861235.1,Plasmodium falciparum 326.1
+GCA_001861055.1,Plasmodium falciparum 327.1
+GCA_001861175.1,Plasmodium falciparum 365.1
+GCA_001861275.1,Plasmodium falciparum 366.1
+GCA_001861065.1,Plasmodium falciparum 377.1
+GCA_001861195.1,Plasmodium falciparum 383.1
+GCA_001861215.1,Plasmodium falciparum 397.1
+GCA_001861305.1,Plasmodium falciparum 398.1
+GCA_000338815.2,Phytophthora lateralis SMST21
+GCA_000338795.2,Phytophthora lateralis MPF6
+GCA_000318465.3,Phytophthora lateralis MPF4
+GCA_003573635.1,Goniomonas avonlea
+GCA_000313135.1,Acanthamoeba castellanii str. Neff
+GCA_004335455.1,Nannochloropsis oculata CCMP525
+GCA_004335405.1,Nannochloropsis granulata CCMP529
+GCA_000333875.2,Leptomonas seymouri BHU1095
+GCA_000331125.1,Phytomonas serpens 9T
+GCA_000507305.1,Breviolum minutum Mf 1.05b.01
+GCA_004936735.2,Cryptosporidium sp. chipmunk genotype I
+GCA_000333075.3,Phytophthora kernoviae 00238/432
+GCA_000333095.2,Phytophthora kernoviae 00629/1
+GCA_000333115.2,Phytophthora kernoviae 00844/4
+GCA_000340495.1,Leishmania panamensis MHOM/COL/81/L13
+GCA_000340355.2,Leishmania braziliensis MHOM/BR/75/M2903
+GCA_000409445.2,Leishmania sp. MAR LEM2494
+GCA_001235845.1,Perkinsela sp. CCAP 1560/4
+GCA_000365545.1,Phytophthora parasitica CJ01A1
+GCA_000367145.1,Phytophthora parasitica P10297
+GCA_000365505.1,Phytophthora parasitica P1569
+GCA_000365525.1,Phytophthora parasitica P1976
+GCA_000505035.1,Plasmodium yoelii 17X
+GCA_001314455.1,Phytophthora pluvialis
+GCA_001870945.1,Nannochloropsis oceanica strain IMET1
+GCA_026724395.1,Theileria sp. buffalo
+GCA_023335935.1,Pythium phragmiticola
+GCA_001543975.1,Giardia intestinalis assemblage B
+GCA_000787575.2,Acytostelium subglobosum LB1
+GCA_905178165.1,Amoebophrya sp. A25
+GCA_000496795.1,Trypanosoma cruzi Dm28c
+GCA_002980425.1,Paralagenidium karlingii
+GCA_023334245.1,Globisporangium cederbergense
+GCA_001275005.1,Chrysochromulina tobinii
+GCA_020509355.1,Blechomonas ayalai
+GCA_002921335.1,Paratrypanosoma confusum
+GCA_914767885.1,Blepharisma stoltei
+GCA_008271595.1,[Pythium] brassicae (nom. inval.)
+GCA_026770025.1,Craspedostauros australis
+GCA_023333845.1,Globisporangium polare
+GCA_023335675.1,Globisporangium solare
+GCA_023333815.1,Globisporangium recalcitrans
+GCA_030267785.1,Phytophthora fragariaefolia
+GCA_032358255.1,Heterotrichella gracilis
+GCA_002217885.1,Fistulifera solaris
+GCA_905221635.1,Symbiodinium sp. CCMP2456
+GCA_020086505.1,Thalassiosira sundarbana
+GCA_000342415.1,Theileria equi strain WA
+GCA_030849845.1,Crithidia brevicula
+GCA_000963465.1,Blastocystis sp. subtype 9
+GCA_003297005.1,Symbiodinium sp. clade A Y106
+GCA_003297045.1,Symbiodinium sp. clade C Y103
+GCA_000818945.1,Schizochytrium sp. CCTCC M209059
+GCA_030347455.1,Kentomonas sorsogonicus
+GCA_020536535.1,Pelomyxa schiedti
+GCA_023158965.1,Leishmania martiniquensis
+GCA_023334595.1,Pythium utonaiense
+GCA_023337615.1,Pythium brachiatum
+GCA_023337735.1,Pythium biforme
+GCA_023338055.1,Phytopythium mirpurense
+GCA_000831705.1,Cryptosporidium sp. chipmunk LX-2015
+GCA_030267945.1,Triparma strigata
+GCA_030267905.1,Triparma verrucosa
+GCA_001273295.2,Tetmemena sp. SeJ-2015
+GCA_001272965.2,Paraurostyla sp. PUJRC_G6
+GCA_001272955.2,Urostyla sp. PUJRC_G1
+GCA_001272975.2,Laurentiella sp. PUJRC_G5
+GCA_030247965.1,Lotmaria passim
+GCA_905231915.1,Symbiodinium necroappetens
+GCA_023337805.1,Globisporangium barbulae
+GCA_023337955.1,Pilasporangium apinafurcum
+GCA_000981925.2,Leishmania sp. AIIMS/LM/SS/PKDL/LD-974
+GCA_001314445.1,Phytophthora agathidicida
+GCA_001655205.1,Lenisia limosa
+GCA_001724265.1,Rhizaria sp. SCN 62-66
+GCA_001314375.1,Phytophthora taxon totara
+GCA_012295415.1,Phytophthora chlamydospora
+GCA_006503475.1,Stentor roeselii
+GCA_012489335.1,Triparma laevis f. inornata
+GCA_030267805.1,Triparma laevis f. longispina
+GCA_030849065.1,Jaenimonas drosophilae
+GCA_030849825.1,Herpetomonas tarakana
+GCA_900128395.1,Stramenopiles sp. TOSAG23-2
+GCA_900128575.1,Stramenopiles sp. TOSAG41-1
+GCA_900128585.1,Stramenopiles sp. TOSAG23-3
+GCA_900128565.1,Stramenopiles sp. TOSAG23-6
+GCA_028826165.1,Anaeramoeba ignava
+GCA_028892595.1,Anaeramoeba flamelloides
+GCA_001462505.1,Aurantiochytrium sp. T66
+GCA_004764655.1,Ectocarpus sp. Ec32
+GCA_005223375.1,Amoebophrya sp. AT5.2
+GCA_023333695.1,Globisporangium yorkense
+GCA_019188245.1,Novymonas esmeraldas
+GCA_015143705.1,Dinobryon sp. LO226KS
+GCA_015143735.1,Synura sp. LO234KE
+GCA_015144975.1,Epipyxis sp. PR26KG
+GCA_014706215.1,Phytophthora versiformis
+GCA_015144965.1,Chromulinospumella sphaerica
+GCA_003024175.1,Planoprotostelium fungivorum
+GCA_023345645.1,Thalassiosira sp.
+GCA_001766655.1,Phytomonas francai
+GCA_030849615.1,Wallacemonas collosoma
+GCA_023346065.1,Eukaryota sp.
+GCA_009731375.1,Paulinella micropora
+GCA_023346425.1,Ochromonas sp.
+GCA_023345925.1,Vannella sp.
+GCA_014706115.1,Phytophthora castanetorum
+GCA_014706135.1,Phytophthora tubulina
+GCA_003116975.1,Aurantiochytrium sp. KH105
+GCA_016642125.1,Trypanosomatidae sp. JR-2017a
+GCA_016643115.1,Trypanosomatidae sp. JR-2017b
+GCA_947538865.1,uncultured Cryptomonadales
+GCA_013372465.1,Nitzschia sp. Nitz4
+GCA_033064195.1,Blattamonas nauphoetae
+GCA_001643675.2,Monocercomonoides exilis
+GCA_904066255.1,Eimeria sp. OTU-X
+GCA_904066245.1,Eimeria sp. OTU-Y
+GCA_904066265.1,Eimeria sp. OTU-Z
+GCA_004335955.1,Halamphora sp. AAB
+GCA_004335815.1,Halamphora sp. MG8b
+GCA_023335895.1,Pythium rishiriense
+GCA_023334315.1,Globisporangium alternatum
+GCA_025330925.1,Haplosporidium pinnae
+GCA_003354225.1,Globobulimina sp.
+GCA_030267725.1,Phytophthora lilii
+GCA_019693415.1,Diacronema lutheri
+GCA_010367175.1,Bacillariophyta sp.
+GCA_900642245.1,Fragilaria radians
+GCA_023334365.1,Globisporangium acanthophoron
+GCA_023334005.1,Globisporangium orthogonon
+GCA_023333955.1,Globisporangium paroecandrum
+GCA_023335535.1,Globisporangium spinosum
+GCA_031892065.1,Cryptosporidium sp. 43IA8
+GCA_018606705.1,Malawimonas sp.
+GCA_004332575.1,Aurantiochytrium acetophilum
+GCA_905178155.1,Amoebophrya sp. A120
+GCA_023159015.1,Leishmania orientalis
+GCA_002897355.1,Hondaea fermentalgiana
+GCA_029834535.1,Chrysophaeum taylorii
+GCA_001712635.2,Nothophytophthora sp. Chile5
+GCA_004369235.1,Perkinsus sp. BL_2016
+GCA_018873745.1,Phytophthora aleatoria
+GCA_016169955.1,Phytophthora vignae f. sp. vignae
+GCA_004523865.1,Nephromyces sp. ex Molgula occidentalis
+GCA_030267625.1,Triparma retinervis
+GCA_947184155.1,Cladocopium goreaui
+GCA_963377175.1,Effrenium voratum
+GCA_023091115.2,Trypanosomatidae sp. Fi-14
+GCA_028554745.1,Blastocrithidia sp. p57
+GCA_902459845.2,Hepatocystis sp. ex Piliocolobus tephrosceles
+GCA_945788115.1,Cafeteria burkhardae
+GCA_024679275.1,Phytophthora niederhauseri
+GCA_021440005.1,Euplotes weissei
+GCA_023338125.1,Phytopythium aichiense
+GCA_023338185.1,Lagenidium sp. CBS 127285
+GCA_023334155.1,Globisporangium heterothallicum
+GCA_015227615.1,Labyrinthula sp. Ha
+GCA_011320135.1,Phytophthora betacei
+GCA_010157825.1,Vickermania ingenoplastis
+GCA_030849815.1,Vickermania spadyakhi
+GCA_012862575.1,Parietichytrium sp. I65-24A
+GCA_013306675.1,Thraustochytrium sp. TN22
+GCA_016586335.1,Nitzschia putrida
+GCA_014706145.1,Phytophthora sp. ST_20190627
+GCA_017918235.1,Porcisia hertigi
+GCA_018683835.1,Porcisia deanei
+GCA_015657535.1,Nephromyces sp. MM_2019
+GCA_017918225.1,Leishmania sp. Namibia
+GCA_017918215.1,Leishmania sp. Ghana 2012 LV757
+GCA_946965055.2,Epithemia pelagica
+GCA_021441625.1,Diophrys sp. 3 WChen-2021
+GCA_021441665.1,Euplotes cf. woodruffi 2 WChen-2021
+GCA_019968985.1,Porospora cf. gigantea B
+GCA_019968955.1,Porospora cf. gigantea A
+GCA_027923505.1,Mayamaea pseudoterrestris
+GCA_921007115.1,Peronospora matthiolae
+GCA_023806845.1,Diplodinium flabellum
+GCA_023805485.1,Epidinium cattanei
+GCA_023806865.1,Isotricha sp. YL-2021a
+GCA_023806045.1,Isotricha sp. YL-2021b
+GCA_023347145.1,Fragilariophycidae sp.
+GCA_024741955.1,Nannochloropsis sp. QH25
+GCA_024181965.1,Aduncisulcus paluster
+GCA_027944975.1,Acanthamoeba sp. SK_2022c
+GCA_027943245.1,Acanthamoeba sp. SK_2022b
+GCA_027943295.1,Acanthamoeba sp. SK_2022a
+GCA_023658685.1,Schmidingerella meunieri
+GCA_030267505.1,Tetraparma gracilis
+GCA_030267985.1,Parmales sp. scaly parma
+GCA_026936335.1,Mantamonas sp. LGalindo-2022b
+GCA_032273045.1,Chloridella minuta
+GCA_029747635.1,Cryptosporidium sp. SCAU42500
+GCA_030159295.1,Thraustochytriaceae sp. 12B
+GCA_956465555.1,Nitzschia sp. pyKryTriq1
+GCA_030078075.1,Crithidia sp. LVH-60A
+GCA_030849675.1,Trypanosoma platydactyli
+GCA_030849045.1,Wallacemonas rigidus
+GCA_030849605.1,Wallacemonas sp. 195SL
+GCA_030849635.1,Wallacemonas sp. MBr04
+GCA_030849645.1,Wallacemonas sp. Wsd
+GCA_030849625.1,Wallacemonas sp. TrypX
+GCA_030849085.1,Borovskyia barvae
+GCA_951393995.1,Nitzschia sp. DOCU1
+##  See ftp://ftp.ncbi.nlm.nih.gov/genomes/README_assembly_summary.txt for a description of the columns in this file.,
+#assembly_accession,organism_name
+GCA_004431415.1,Cyanophora paradoxa
+GCA_018806925.1,Skeletonema costatum
+GCA_914521175.1,Phaeodactylum tricornutum
+GCA_019693525.1,Cylindrotheca fusiformis
+GCA_933822405.4,Cylindrotheca closterium
+GCA_000310025.1,Ectocarpus siliculosus
+GCA_000194455.1,Cryptomonas paramecium
+GCA_018327485.1,Symbiodinium microadriaticum
