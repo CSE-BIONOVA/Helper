@@ -883,13 +883,3 @@ GCA_030849645.1,Wallacemonas sp. Wsd
 GCA_030849625.1,Wallacemonas sp. TrypX
 GCA_030849085.1,Borovskyia barvae
 GCA_951393995.1,Nitzschia sp. DOCU1
-##  See ftp://ftp.ncbi.nlm.nih.gov/genomes/README_assembly_summary.txt for a description of the columns in this file.,
-#assembly_accession,organism_name
-GCA_004431415.1,Cyanophora paradoxa
-GCA_018806925.1,Skeletonema costatum
-GCA_914521175.1,Phaeodactylum tricornutum
-GCA_019693525.1,Cylindrotheca fusiformis
-GCA_933822405.4,Cylindrotheca closterium
-GCA_000310025.1,Ectocarpus siliculosus
-GCA_000194455.1,Cryptomonas paramecium
-GCA_018327485.1,Symbiodinium microadriaticum

@@ -2,7 +2,7 @@ species=$1
 A="../../Genome/$species/assembly_summary.txt"
 B="../../Genome/$species"
 array=()
-a_file="$species.csv"
+a_file="${species}.csv"
 while IFS=$',' read -r -a line 
 do 
 	array+=${line[1]}
@@ -25,7 +25,7 @@ do
 		echo "$link"
 		array+=($s)
 		echo "Species: $s"
-		wget "$link" -P $B
+		#wget "$link" -P $B
 		echo "$accession,$s" >> $a_file
 	fi
 done < $A
