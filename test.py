@@ -29,8 +29,8 @@ with open(assembly_summary_file, "r") as f:
 		fields = line.strip().split("\t")
 		species_name=fields[7]
 		if species_name not in accession_species:
-			print(species_name)
 			accession = fields[0]
+			print(accession)
 			url = fields[19]
 			filename = url.split("/")[-1] + "_genomic.fna.gz"
 			link = f"{url}/{filename}"
