@@ -30,9 +30,9 @@ with open(assembly_summary_file, "r") as f:
 		species_name=fields[7]
 		if species_name not in accession_species:
 			accession = fields[0]
-			print(accession)
 			url = fields[19]
 			filename = url.split("/")[-1] + "_genomic.fna.gz"
+			print(url, filename)
 			link = f"{url}/{filename}"
 			accession_species.append(species_name)
 			print(link)
