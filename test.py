@@ -32,7 +32,7 @@ with open(assembly_summary_file, "r") as f:
 			accession = fields[0]
 			url = fields[19]
 			filename = url.split("/")[-1] + "_genomic.fna.gz"
-			print(url, filename)
+			print(url,)
 			link = f"{url}/{filename}"
 			accession_species.append(species_name)
 			print(link)
