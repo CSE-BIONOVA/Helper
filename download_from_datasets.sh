@@ -1,5 +1,5 @@
 
-file="/accession/virus_accession.txt"
+file="../../BashScipts/Helper/accession/virus_accession.txt"
 count=0
 
 while IFS= read -r line
