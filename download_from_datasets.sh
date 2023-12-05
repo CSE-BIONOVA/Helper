@@ -6,7 +6,7 @@ while IFS= read -r line
 do
   echo "Processing line: $line"
   datasets download virus genome accession $line
-  unzip ncbi_dataset.zip
+  unzip ncbi_dataset.zip -o
   touch $line.fna
   mv ncbi_dataset/data/genomic.fna $line.fna
   count=$((count+1))
