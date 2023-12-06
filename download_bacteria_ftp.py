@@ -1,7 +1,7 @@
 import csv
 import urllib.request
 
-csv_file = 'prokaryotes.csv'
+csv_file = '../../BashScripts/Helper/bacteria_human.csv'
 new_csv_file = 'virus_accession.csv'
 
 with open(csv_file, 'r') as file:
