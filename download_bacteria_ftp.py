@@ -1,21 +1,26 @@
 import csv
 import urllib.request
 
-csv_file = '../../BashScripts/Helper/bacteria_human.csv'
+# csv_file = '../../BashScripts/Helper/bacteria_human.csv'
+csv_file = 'bacteria_human.csv'
 new_csv_file = 'bactria_accession.csv'
 
+accession_array = []
 with open(new_csv_file, 'r') as file:
-    new_reader = csv.reader(file)
-    accession_array = [row[0] for row in new_reader]	
-
+    lines = file.readlines()
+    for line in lines:
+        accession = line.split(',')[0]
+        accession_array.append(accession)	
+        
+print(accession_array)
 new_file = open(new_csv_file, "a")
 writer = csv.writer(new_file)
 
 with open(csv_file, 'r') as file:
     lines = file.readlines()[2500:]
     reader = csv.DictReader(file)
+    counter = 2350
     for line in lines:
-        counter = 2350
         ftp_link = line.split(',')[3][1:-1	] 
         print(ftp_link)
         if ftp_link:
@@ -34,3 +39,4 @@ with open(csv_file, 'r') as file:
             if counter == 4000:
                 break
 
+new_file.close()	
