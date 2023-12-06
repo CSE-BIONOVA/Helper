@@ -1,8 +1,8 @@
 import csv
 import urllib.request
 
-# csv_file = '../../BashScripts/Helper/bacteria_human.csv'
-csv_file = 'bacteria_human.csv'
+csv_file = '../../BashScripts/Helper/bacteria_human.csv'
+# csv_file = 'bacteria_human.csv'
 new_csv_file = 'bactria_accession.csv'
 
 accession_array = []
@@ -11,7 +11,7 @@ with open(new_csv_file, 'r') as file:
     for line in lines:
         accession = line.split(',')[0]
         accession_array.append(accession)	
-        
+
 print(accession_array)
 new_file = open(new_csv_file, "a")
 writer = csv.writer(new_file)
