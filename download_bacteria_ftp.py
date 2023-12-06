@@ -8,26 +8,29 @@ with open(new_csv_file, 'r') as file:
     new_reader = csv.reader(file)
     accession_array = [row[0] for row in new_reader]	
 
-with open(csv_file, 'r') as file:
-    with open(new_csv_file, 'a', newline='') as new_file:
-        reader = csv.DictReader(file)
-        writer = csv.writer(new_file)
-        counter = 2350
+new_file = open(new_csv_file, "a")
+writer = csv.writer(new_file)
 
-        for row in reader:
-            ftp_link = row['GenBank FTP']
-            if ftp_link:
-                accession = row['Assembly']
-                if accession in accession_array:
-                    continue
-                new_file_name = f"{accession}.fna.gz"
-                file_name = ftp_link.split("/")[-1] + "_genomic.fna.gz"
-                saved_file_name=file_name[:-3]
-                url = f"https://{ftp_link[6:]}/{file_name}"
-                urllib.request.urlretrieve(url, new_file_name)  # Save the downloaded file
-                writer.writerow([accession, new_file_name])  # Write data row
-                print(counter)
-                counter += 1
-                if counter == 4000:
-                    break
+with open(csv_file, 'r') as file:
+    lines = file.readlines()[2500:]
+    reader = csv.DictReader(file)
+    for line in lines:
+        counter = 2350
+        ftp_link = line.split(',')[3][1:-1	] 
+        print(ftp_link)
+        if ftp_link:
+            accession = line.split(',')[1][1:-1]
+            if accession in accession_array:
+                continue
+            new_file_name = f"{accession}.fna.gz"
+            file_name = ftp_link.split("/")[-1] + "_genomic.fna.gz"
+            saved_file_name=file_name[:-3]
+            url = f"https://{ftp_link[6:]}/{file_name}"
+            print(url)
+            urllib.request.urlretrieve(url, new_file_name)  # Save the downloaded file
+            writer.writerow([accession, new_file_name])  # Write data row
+            print(counter)
+            counter += 1
+            if counter == 4000:
+                break
 
