@@ -19,7 +19,7 @@ writer = csv.writer(new_file)
 with open(csv_file, 'r') as file:
     lines = file.readlines()[2500:]
     reader = csv.DictReader(file)
-    counter = 2350
+    counter = 3250
     for line in lines:
         ftp_link = line.split(',')[3][1:-1	] 
         print(ftp_link)
