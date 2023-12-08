@@ -12,13 +12,11 @@ if __name__ == "__main__":
     dna_list = csv.reader(open(dna_list_file))	
     dna_type = csv.writer(open(dna_type_file, "w"))
 
-    for i in range(len(dna_list)):
-        line = dna_list[i]
-        index = line[0]
-        dna_file = line[1]
+    for line in dna_list:
+        index, dna_file = line
         chromosome_name = get_chromosome_name(dna_file)
         dna_type.writerow([index, chromosome_name])
-        print(f"{i} : {chromosome_name}")
+        print(chromosome_name)
 
     dna_type.close()
     dna_list.close()
