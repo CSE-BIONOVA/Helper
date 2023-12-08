@@ -14,6 +14,7 @@ if __name__ == "__main__":
 
     for line in dna_list:
         index, dna_file = line
+        dna_file = "../../" + dna_file
         chromosome_name = get_chromosome_name(dna_file)
         dna_type.writerow([index, chromosome_name])
         print(chromosome_name)
