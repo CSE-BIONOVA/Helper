@@ -19,8 +19,7 @@ do
     file_path=${line[1]}
     real_file_size=$(stat -c%s "$file_path")
     abundance=$((line2[1]))
-    echo "abundance: $abundance"
-    simlated_read_size=$((full_size*abundance))
+    simlated_read_size=$(echo "$full_size * $abundance" | bc)
     coverage=$((simlated_read_size/real_file_size))
     echo "$file_path,$coverage" >> "$coverage_list"
 
