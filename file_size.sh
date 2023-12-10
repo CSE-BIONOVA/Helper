@@ -1,7 +1,7 @@
-# genome_list='./../BashScripts/Helper/accession/human_metagenome/temp_files/dna_list.csv'
-# abundance_list='./../BashScripts/Helper/accession/human_metagenome/temp_files/abundance.csv'
-genome_list='accession/human_metagenome/temp_files/dna_list.csv'
-abundance_list='accession/human_metagenome/temp_files/abundance.csv'
+genome_list='./../BashScripts/Helper/accession/human_metagenome/temp_files/dna_list.csv'
+abundance_list='./../BashScripts/Helper/accession/human_metagenome/temp_files/abundance.csv'
+# genome_list='accession/human_metagenome/temp_files/dna_list.csv'
+# abundance_list='accession/human_metagenome/temp_files/abundance.csv'
 coverage_list='coverage_list.csv'
 
 full_size=0
@@ -22,7 +22,7 @@ do
     simlated_read_size=$((full_size*abundance))
     coverage=$((simlated_read_size/real_file_size))
     echo "$file_path,$coverage" >> "$coverage_list"
-    
+
 done 3< "$genome_list" 4< "$abundance_list"
        
 
