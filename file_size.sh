@@ -18,7 +18,7 @@ while IFS=',' read -r -a line <&3 && IFS=',' read -r -a line2 <&4
 do 
     file_path=${line[1]}
     real_file_size=$(stat -c%s "$file_path")
-    abundance=$((line2[1]))
+    abundance=${line2[1]}
     simlated_read_size=$(echo "$full_size * $abundance" | bc)
     coverage=$((simlated_read_size/real_file_size))
     echo "$file_path,$coverage" >> "$coverage_list"
