@@ -1,5 +1,5 @@
-genome_list='./../BashScripts/Helper/accession/human_metagenome/temp_files/dna_list.csv'
-abundance_list='./../BashScripts/Helper/accession/human_metagenome/temp_files/abundance.csv'
+genome_list='../../BashScripts/Helper/accession/human_metagenome/temp_files/dna_list.csv'
+abundance_list='../../BashScripts/Helper/accession/human_metagenome/temp_files/abundance.csv'
 # genome_list='accession/human_metagenome/temp_files/dna_list.csv'
 # abundance_list='accession/human_metagenome/temp_files/abundance.csv'
 coverage_list='coverage_list.csv'
