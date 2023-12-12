@@ -1,4 +1,3 @@
-GRCh38,"NC_000001.11 Homo sapiens chromosome 1, GRCh38.p14 Primary Assembly",linear
 GCA_000001985.1,"DS996350.1 Penicillium marneffei ATCC 18224 scf_1107713384177 genomic scaffold, whole genome shotgun sequence",linear
 GCA_000002495.2,"CM001231.1 Magnaporthe oryzae 70-15 chromosome 1, whole genome shotgun sequence",linear
 GCA_000002525.1,CR382127.1 Yarrowia lipolytica CLIB122 chromosome A complete sequence,linear
@@ -10499,3 +10498,4 @@ GCA_016882045.1,"RBYT01000001.1 Listeria innocua strain Lin13-010 Listeria_innoc
 GCA_900118575.1,"FPIF01000096.1 Chlamydophila abortus strain S82/3 genome assembly, contig: ERS003309SCcontig000096, whole genome shotgun sequence",circular
 GCA_013357445.1,"CP053614.1 Proteus mirabilis strain S74-1(++)-2 chromosome, complete genome",circular
 GCA_000755525.1,"KN150799.1 Enterobacter cloacae strain ATCC 13047 genomic scaffold scaffold1, whole genome shotgun sequence",circular
+GRCh38,"NC_000001.11 Homo sapiens chromosome 1, GRCh38.p14 Primary Assembly",linear
