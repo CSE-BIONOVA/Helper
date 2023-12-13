@@ -1,14 +1,7 @@
 referance='/home/mbadmin/Documents/BashScripts/Helper/accession/human_metagenome/no_of_reads.csv'
 
-skip_lines=3500  
-counter=0
 while IFS=',' read -r -a line
 do 
-    if [ $counter -lt $skip_lines ]; then
-        counter=$((counter+1))
-        continue  
-    fi
-
     file_path=${line[1]}
     file_name=${line[0]}
     dna_type=${line[2]}
