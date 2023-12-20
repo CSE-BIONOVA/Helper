@@ -38,12 +38,9 @@ if __name__ == "__main__":
         accession = read_id.split("_")[0]
         genome_type = dna[accession] 
         read_length = int(read_id.split("_")[-2])  
-        read_label.writerow([read_id, genome_type])
-        read_info.writerow([read_id, genome_type, read_length])
         label = labels[genome_type]
         read_label.writerow([read_id, label])
         read_info.writerow([read_id, genome_type, read_length, accession])
 
     read_label.close()
     read_info.close()
-    
