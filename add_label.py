@@ -21,7 +21,7 @@ if __name__ == "__main__":
     dna = read_csv_file(dna_file)   
     read_label = csv.writer(open(read_label_file, "w"))
     read_info = csv.writer(open(read_info_file, "w"))
-    
+
     def clear_file(file_path):
         with open(file_path, 'w') as file:
             file.truncate(0)
@@ -45,7 +45,9 @@ if __name__ == "__main__":
     for read in records:
         read_id = read.id
         accession = read_id.split("_")[0]
-        genome_type = dna[accession] 
+        genome_type = dna.get(accession)
+        if genome_type is None:
+            pass
         read_length = int(read_id.split("_")[-2])  
         label = labels[genome_type]
         read_label.writerow([read_id, label])
