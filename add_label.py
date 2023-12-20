@@ -49,7 +49,9 @@ if __name__ == "__main__":
         if genome_type is None:
             pass
         read_length = int(read_id.split("_")[-2])  
-        label = labels[genome_type]
+        label = labels.get(genome_type)
+        if label is None:
+            pass
         read_label.writerow([read_id, label])
         read_info.writerow([read_id, genome_type, read_length, accession])
 
