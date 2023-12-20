@@ -3,22 +3,32 @@ import csv
 import os
 
         
-def read_csv_file(file_path):
+def read_DNA_file(file_path):
     data = {}
     with open(file_path, 'r') as file:
         reader = csv.reader(file)
         for row in reader:
-            data.update({row[0].split(".")[0]: row[1].split("/")[3]})
+            data.update({row[0]: row[1].split("/")[3]})
     return data
-       
+
+def read_chromosome_file(file_path):
+    data = {}
+    with open(file_path, 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            data.update({row[1].split(".")[0] : row[0]})
+    return data
     
 if __name__ == "__main__":
+
     dna_file="accession/human_metagenome/no_of_reads1.csv"
+    chromosome_file = "accession/human_metagenome/dna_type.csv"
     read_label_file="label.csv"
     read_info_file="read_info.csv"
     fasta_file = "../../Metagenome/human/aligned/final.fasta"
 
-    dna = read_csv_file(dna_file)   
+    dna = read_DNA_file(dna_file)   
+    chromosome = read_chromosome_file(chromosome_file)
     read_label = csv.writer(open(read_label_file, "w"))
     read_info = csv.writer(open(read_info_file, "w"))
 
@@ -44,7 +54,8 @@ if __name__ == "__main__":
     }
     for read in records:
         read_id = read.id
-        accession = read_id.split("_")[0]
+        chromosome_name = read_id.split("_")[0]
+        accession = chromosome.get(chromosome_name)
         genome_type = dna.get(accession)
         if genome_type is None:
             pass
