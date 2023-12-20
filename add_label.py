@@ -1,5 +1,6 @@
 from Bio import SeqIO
 import csv
+import os
 
         
 def read_csv_file(file_path):
@@ -20,6 +21,14 @@ if __name__ == "__main__":
     dna = read_csv_file(dna_file)   
     read_label = csv.writer(open(read_label_file, "w"))
     read_info = csv.writer(open(read_info_file, "w"))
+    
+    def clear_file(file_path):
+        with open(file_path, 'w') as file:
+            file.truncate(0)
+
+    # Clear the files before writing
+    clear_file(read_label_file)
+    clear_file(read_info_file)
 
     read_label.writerow(["id", "y_true"])
     read_info.writerow(["id", "genome_type", "length", "accession"])
