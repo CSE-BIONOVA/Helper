@@ -1,5 +1,5 @@
 
-file="./home/mbadmin/Documents/Genome/Virus/virus_accession.txt"
+file="/home/mbadmin/Documents/Genome/Virus/virus_accession.txt"
 # count=0
 
 while IFS= read -r line
