@@ -5,7 +5,7 @@ file="/home/mbadmin/Documents/Genome/Virus/virus_accession.txt"
 while IFS= read -r line
 do
   echo "Processing line: $line"
-  datasets download virus genome accession $line
+  datasets download genome accession $line
   unzip -o ncbi_dataset.zip 
   touch $line.fna
   mv ncbi_dataset/data/genomic.fna $line.fna
