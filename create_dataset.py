@@ -18,7 +18,7 @@ def create_dataset(reads_array, l_file, out_fasta, organism, used_reads):
             count = 0
             for row in reads_array:
                 used_reads_file.write(row + "\n")
-                for record in SeqIO.parse(row[0], "fasta"):
+                for record in SeqIO.parse(row, "fasta"):
                     count += 1
                     SeqIO.write(record, out_file, "fasta")
                     label_writer.writerow([record.id, organism, len(record.seq)])
