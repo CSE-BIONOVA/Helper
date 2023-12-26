@@ -56,9 +56,9 @@ if __name__ == "__main__":
         label_writer.writerow(["id", "y_true", " length"])
     
     
-    create_dataset(human, label_file, "human.fasta", 1, human_used_reads)
-    create_dataset(bacteria, label_file, "bacteria.fasta", 2, bacteria_used_reads)
-    create_dataset(virus, label_file, "virus.fasta", 3, virus_used_reads)
-    create_dataset(fungi, label_file, "fungi.fasta", 4, fungi_used_reads)
-    create_dataset(archaea, label_file, "archaea.fasta", 5, archaea_used_reads)
-    create_dataset(protozoa, label_file, "protozoa.fasta", 6, protozoa_used_reads)
+    create_dataset(human, "../../BashScripts/Helper/accession/human_metagenome/reads/labels.csv", "human.fasta", 1, human_used_reads)
+    create_dataset(bacteria, "../../BashScripts/Helper/accession/human_metagenome/reads/labels.csv", "bacteria.fasta", 2, bacteria_used_reads)
+    create_dataset(virus, "../../BashScripts/Helper/accession/human_metagenome/reads/labels.csv", "virus.fasta", 3, virus_used_reads)
+    create_dataset(fungi, "../../BashScripts/Helper/accession/human_metagenome/reads/labels.csv", "fungi.fasta", 4, fungi_used_reads)
+    create_dataset(archaea, "../../BashScripts/Helper/accession/human_metagenome/reads/labels.csv", "archaea.fasta", 5, archaea_used_reads)
+    create_dataset(protozoa, "../../BashScripts/Helper/accession/human_metagenome/reads/labels.csv", "protozoa.fasta", 6, protozoa_used_reads)
