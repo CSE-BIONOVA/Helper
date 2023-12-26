@@ -12,8 +12,8 @@ def get_files_array(filename, file_path_prefix):
 def create_dataset(reads_array, label_file, out_fasta, organism, used_reads):
     used_reads_file = open(used_reads, "w")
 
-    with open(label_file, "w") as label_file:
-        label_writer = csv.writer(label_file)
+    with open(label_file, "w") as file:
+        label_writer = csv.writer(file)
         with open(out_fasta, "w") as out_file:
             count = 0
             for row in reads_array:
