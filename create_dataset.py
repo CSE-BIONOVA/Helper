@@ -49,7 +49,7 @@ if __name__ == "__main__":
     fungi = get_files_array(fungi_reads, "../../Genome/Fungi/reads/")
     protozoa = get_files_array(protozoa_reads, "../../Genome/Protozoa/reads/")
     virus = get_files_array(virus_reads, "../../Genome/Virus/shark/reads/")
-    shark = ["../../Genome/shark/reads/shark_aligned_reads.fasta"]
+    shark = ["../../Genome/Shark/reads/shark_aligned_reads.fasta"]
     
     with open(label_file, "w") as label_file:
         label_writer = csv.writer(label_file)
