@@ -29,36 +29,36 @@ def create_dataset(reads_array, l_file, out_fasta, organism, used_reads):
 
 if __name__ == "__main__":
 
-    bacteria_reads = "../../BashScripts/Helper/accession/human_metagenome/reads/bacteria_reads.csv" 
-    archaea_reads = "../../BashScripts/Helper/accession/human_metagenome/reads/archaea_reads.csv" 
-    fungi_reads = "../../BashScripts/Helper/accession/human_metagenome/reads/fungi_reads.csv" 
-    protozoa_reads = "../../BashScripts/Helper/accession/human_metagenome/reads/protozoa_reads.csv" 
-    virus_reads = "../../BashScripts/Helper/accession/human_metagenome/reads/virus_reads.csv" 
+    bacteria_reads = "../../BashScripts/Helper/accession/shark_metagenome/reads/bacteria_reads.csv" 
+    archaea_reads = "../../BashScripts/Helper/accession/shark_metagenome/reads/archaea_reads.csv" 
+    fungi_reads = "../../BashScripts/Helper/accession/shark_metagenome/reads/fungi_reads.csv" 
+    protozoa_reads = "../../BashScripts/Helper/accession/shark_metagenome/reads/protozoa_reads.csv" 
+    virus_reads = "../../BashScripts/Helper/accession/shark_metagenome/reads/virus_reads.csv" 
 
-    bacteria_used_reads = "../../BashScripts/Helper/accession/human_metagenome/reads/bacteria_used_reads.csv" 
-    archaea_used_reads = "../../BashScripts/Helper/accession/human_metagenome/reads/archaea_used_reads.csv" 
-    fungi_used_reads = "../../BashScripts/Helper/accession/human_metagenome/reads/fungi_used_reads.csv" 
-    protozoa_used_reads = "../../BashScripts/Helper/accession/human_metagenome/reads/protozoa_used_reads.csv" 
-    virus_used_reads = "../../BashScripts/Helper/accession/human_metagenome/reads/virus_used_reads.csv" 
-    human_used_reads = "../../BashScripts/Helper/accession/human_metagenome/reads/human_used_reads.csv" 
+    bacteria_used_reads = "../../BashScripts/Helper/accession/shark_metagenome/reads/bacteria_used_reads.csv" 
+    archaea_used_reads = "../../BashScripts/Helper/accession/shark_metagenome/reads/archaea_used_reads.csv" 
+    fungi_used_reads = "../../BashScripts/Helper/accession/shark_metagenome/reads/fungi_used_reads.csv" 
+    protozoa_used_reads = "../../BashScripts/Helper/accession/shark_metagenome/reads/protozoa_used_reads.csv" 
+    virus_used_reads = "../../BashScripts/Helper/accession/shark_metagenome/reads/virus_used_reads.csv" 
+    shark_used_reads = "../../BashScripts/Helper/accession/shark_metagenome/reads/shark_used_reads.csv" 
 
-    label_file = "../../BashScripts/Helper/accession/human_metagenome/reads/labels.csv"
+    label_file = "../../BashScripts/Helper/accession/shark_metagenome/reads/labels.csv"
     
-    bacteria = get_files_array(bacteria_reads, "../../Genome/Bacteria/human/reads/")
+    bacteria = get_files_array(bacteria_reads, "../../Genome/Bacteria/shark/reads/")
     archaea = get_files_array(archaea_reads, "../../Genome/Archaea/reads/")
     fungi = get_files_array(fungi_reads, "../../Genome/Fungi/reads/")
     protozoa = get_files_array(protozoa_reads, "../../Genome/Protozoa/reads/")
-    virus = get_files_array(virus_reads, "../../Genome/Virus/human/reads/")
-    human = ["../../Genome/Human/reads/human_aligned_reads.fasta"]
+    virus = get_files_array(virus_reads, "../../Genome/Virus/shark/reads/")
+    shark = ["../../Genome/shark/reads/shark_aligned_reads.fasta"]
     
     with open(label_file, "w") as label_file:
         label_writer = csv.writer(label_file)
         label_writer.writerow(["id", "y_true", " length"])
     
     
-    create_dataset(human, "../../BashScripts/Helper/accession/human_metagenome/reads/labels.csv", "human.fasta", 1, human_used_reads)
-    create_dataset(bacteria, "../../BashScripts/Helper/accession/human_metagenome/reads/labels.csv", "bacteria.fasta", 2, bacteria_used_reads)
-    create_dataset(virus, "../../BashScripts/Helper/accession/human_metagenome/reads/labels.csv", "virus.fasta", 3, virus_used_reads)
-    create_dataset(fungi, "../../BashScripts/Helper/accession/human_metagenome/reads/labels.csv", "fungi.fasta", 4, fungi_used_reads)
-    create_dataset(archaea, "../../BashScripts/Helper/accession/human_metagenome/reads/labels.csv", "archaea.fasta", 5, archaea_used_reads)
-    create_dataset(protozoa, "../../BashScripts/Helper/accession/human_metagenome/reads/labels.csv", "protozoa.fasta", 6, protozoa_used_reads)
+    create_dataset(shark, "../../BashScripts/Helper/accession/shark_metagenome/reads/labels.csv", "shark.fasta", 1, shark_used_reads)
+    create_dataset(bacteria, "../../BashScripts/Helper/accession/shark_metagenome/reads/labels.csv", "bacteria.fasta", 2, bacteria_used_reads)
+    create_dataset(virus, "../../BashScripts/Helper/accession/shark_metagenome/reads/labels.csv", "virus.fasta", 3, virus_used_reads)
+    create_dataset(fungi, "../../BashScripts/Helper/accession/shark_metagenome/reads/labels.csv", "fungi.fasta", 4, fungi_used_reads)
+    create_dataset(archaea, "../../BashScripts/Helper/accession/shark_metagenome/reads/labels.csv", "archaea.fasta", 5, archaea_used_reads)
+    create_dataset(protozoa, "../../BashScripts/Helper/accession/shark_metagenome/reads/labels.csv", "protozoa.fasta", 6, protozoa_used_reads)
