@@ -6,6 +6,7 @@ def get_files_array(filename, file_path_prefix):
         reader = csv.reader(file)
         files = []
         for row in reader:
+            print(row)
             files.append(file_path_prefix + row[0])
         return files
 
