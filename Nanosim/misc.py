@@ -1,5 +1,5 @@
-file = 'accession_bacteria.txt'
-new_file = 'accession_bacteria_new.txt'
+file = 'viruses (1).csv'
+new_file = 'viruses.csv'
 
 with open(file, 'r') as f:
     lines = f.readlines()
