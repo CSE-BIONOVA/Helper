@@ -1,4 +1,4 @@
-referance='/home/mbadmin/Documents/BashScripts/Helper/accession/shark_metagenome/bacteria_files.csv'
+referance='/home/mbadmin/Documents/BashScripts/Helper/accession/shark_metagenome/test/bacteria_files.csv'
 
 while IFS=',' read -r -a line
 do 
