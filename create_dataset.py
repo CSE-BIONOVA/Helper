@@ -22,7 +22,7 @@ def create_dataset(reads_array, l_file, out_fasta, organism, used_reads):
                     count += 1
                     SeqIO.write(record, out_file, "fasta")
                     label_writer.writerow([record.id, organism, len(record.seq)])
-                    if count == 4000:
+                    if count == 3500:
                         out_file.close()
                         used_reads_file.close()
                         return
@@ -42,7 +42,7 @@ def create_dataset_from_end(reads_array, l_file, out_fasta, organism, used_reads
                     count += 1
                     SeqIO.write(record, out_file, "fasta")
                     label_writer.writerow([record.id, organism, len(record.seq)])
-                    if count == 4000:
+                    if count == 3500:
                         out_file.close()
                         used_reads_file.close()
                         return
