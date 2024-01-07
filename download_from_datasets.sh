@@ -1,5 +1,5 @@
 
-file="/home/mbadmin/Documents/Genome/Virus/shark/test/virus_files.txt"
+file="/home/mbadmin/Documents/BashScripts/Helper/rest_of_bacteria.csv"
 count=0
 
 while IFS= read -r line
@@ -10,7 +10,7 @@ do
   touch $line.fna
   mv ncbi_dataset/data/$line/*_genomic.fna $line.fna
   count=$((count+1))
-  if [ $count -eq 500 ]; then
+  if [ $count -eq 4600 ]; then
     break
   fi
 done < "$file"
