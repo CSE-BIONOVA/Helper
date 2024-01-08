@@ -10,7 +10,7 @@ do
   touch $line.fna
   mv ncbi_dataset/data/$line/*_genomic.fna $line.fna
   count=$((count+1))
-  if [ $count -eq 7600 ]; then
+  if [ $count -eq 300 ]; then
     break
   fi
 done < "$file"
