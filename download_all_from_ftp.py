@@ -5,7 +5,7 @@ import requests
 species = "Protozoa"
 assembly_summary_file = f"../../Genome/{species}/assembly_summary.txt"
 genome_dir = f"../../Genome/{species}/"
-downloaded_accession_file = "downloaded_archaea.csv"
+downloaded_accession_file = "downloaded_protozoa.csv"
 downloaded_accessions = []
 
 # read already downloaded accessions
@@ -26,10 +26,10 @@ with open(assembly_summary_file, "r") as f:
 		if accession not in downloaded_accessions:
 			url = fields[19]
 			filename = url.split("/")[-1] + "_genomic.fna.gz"
-			print(url)
 			link = f"{url}/{filename}"
 			print(link)
 			response = requests.get(link)
+			print(response)
 			with open(os.path.join(genome_dir, filename), "wb") as f:
 				f.write(response.content)
 		
