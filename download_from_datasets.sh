@@ -1,5 +1,5 @@
 
-file="/home/mbadmin/Documents/BashScripts/Helper/rest_of_bacteria.csv"
+file="/home/mbadmin/Documents/BashScripts/Helper/all_protozoa.csv"
 count=0
 
 while IFS= read -r line
