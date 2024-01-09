@@ -27,12 +27,9 @@ with open(assembly_summary_file, "r") as f:
 			url = fields[19]
 			filename = url.split("/")[-1] + "_genomic.fna.gz"
 			print(url)
-            link = f"{url}/{filename}"
-            downloaded_species.append(species_name)
-            print(link)
-            response = requests.get(link)
-            with open(os.path.join(genome_dir, filename), "wb") as f:
-                f.write(response.content)
-            with open(accession_species_file, "a") as f:
-                writer = csv.writer(f)
-                writer.writerow([accession, species_name])
+			link = f"{url}/{filename}"
+			print(link)
+			response = requests.get(link)
+			with open(os.path.join(genome_dir, filename), "wb") as f:
+				f.write(response.content)
+		
