@@ -3,7 +3,7 @@
 species="Protozoa"
 assembly_summary_file="../../Genome/${species}/assembly_summary.txt"
 genome_dir="../../Genome/${species}/"
-downloaded_accession_file="downloaded_archaea.csv"
+downloaded_accession_file="downloaded_protozoa.csv"
 downloaded_accessions=()
 
 # read already downloaded accessions
