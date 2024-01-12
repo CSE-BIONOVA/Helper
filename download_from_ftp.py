@@ -5,9 +5,9 @@ import requests
 species = "Bacteria"
 assembly_summary_file = f"../../Genome/{species}/assembly_summary.txt"
 genome_dir = f"../../Genome/{species}/test"
-downloaded_accession_file = "downloaded_archaea.csv"
+downloaded_accession_file = "all_bacteria.csv"
 downloaded_accessions = []
-accession_species_file = "test_archaea_accession_and_speciesname.csv"
+accession_species_file = "all_bacteria_species.csv"
 downloaded_species = []
 
 # read already downloaded accessions
