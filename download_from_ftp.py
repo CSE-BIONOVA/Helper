@@ -2,7 +2,7 @@ import os
 import csv
 import requests
 
-species = "Archaea"
+species = "Bacteria"
 assembly_summary_file = f"../../Genome/{species}/assembly_summary.txt"
 genome_dir = f"../../Genome/{species}/test"
 downloaded_accession_file = "downloaded_archaea.csv"
