@@ -4,7 +4,7 @@ import requests
 
 species = "Bacteria"
 assembly_summary_file = f"../../Genome/{species}/assembly_summary.txt"
-genome_dir = f"../../Genome/{species}/test"
+genome_dir = f"../../Genome/{species}/"
 downloaded_accession_file = "all_bacteria.csv"
 downloaded_accessions = []
 accession_species_file = "all_bacteria_species.csv"
