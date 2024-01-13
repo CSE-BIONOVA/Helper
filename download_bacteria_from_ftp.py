@@ -2,10 +2,10 @@ import os
 import csv
 import requests
 
-species = "Virus"
+species = "Bacteria"
 assembly_summary_file = f"../../Genome/{species}/assembly_summary.txt"
 genome_dir = f"../../Genome/{species}/"
-downloaded_species_file = "all_virus_species.csv"
+downloaded_species_file = "all_bacteria_species.csv"
 downloaded_species = []
 downloaded_accessions = []
 		
@@ -19,8 +19,6 @@ if os.path.isfile(downloaded_species_file):
 print(len(downloaded_species))	
 print(len(downloaded_accessions))
 
-
-
 # Download genome files for new species
 with open(assembly_summary_file, "r") as f:
 	for line in f:
@@ -31,7 +29,6 @@ with open(assembly_summary_file, "r") as f:
 		if species_name not in downloaded_species:
 			accession = fields[0]
 			if accession not in downloaded_accessions:
-				
 				url = fields[19]
 				filename = url.split("/")[-1] + "_genomic.fna.gz"
 				print(url)
