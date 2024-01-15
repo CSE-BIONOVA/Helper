@@ -14,6 +14,6 @@ with open('accession\human_metagenome\\temp.txt', 'r') as file:
 rows = [row for row in rows if row[0] not in array]
 
 # Write the updated rows back to the bacteria_files.csv file rest of the content
-with open('rest_of_fungi.csv', 'w', newline='') as csvfile:
+with open('rest_of_archaea.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(rows)

@@ -1,5 +1,5 @@
 
-file="/home/mbadmin/Documents/BashScripts/Helper/all_fungi.csv"
+file="/home/mbadmin/Documents/BashScripts/Helper/all_archaea.csv"
 
 while IFS= read -r line
 do
