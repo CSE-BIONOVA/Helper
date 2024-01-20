@@ -1,4 +1,4 @@
-referance='/home/mbadmin/Documents/BashScripts/Helper/genome_filenames/archaea.csv'
+referance='/home/mbadmin/Documents/BashScripts/Helper/genome_filenames/archaea_temp.csv'
 
 
 while IFS=',' read -r -a line
