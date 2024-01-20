@@ -1,4 +1,4 @@
-referance='/home/mbadmin/Documents/BashScripts/Helper/accession/genome_filenames/temp_virus.csv'
+referance='/home/mbadmin/Documents/BashScripts/Helper/genome_filenames/temp_virus.csv'
 
 
 while IFS=',' read -r -a line
