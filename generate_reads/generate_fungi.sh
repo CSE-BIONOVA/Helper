@@ -1,4 +1,4 @@
-referance='/home/mbadmin/Documents/BashScripts/Helper/genome_filenames/fungi.csv'
+referance='/home/mbadmin/Documents/BashScripts/Helper/genome_filenames/temp_fungi.csv'
 
 while IFS=',' read -r -a line
 do 
