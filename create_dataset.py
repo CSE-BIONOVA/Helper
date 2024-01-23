@@ -24,7 +24,7 @@ def create_dataset(reads_array, l_file, out_fasta, organism, used_reads):
                     count += 1
                     SeqIO.write(record, out_file, "fasta")
                     label_writer.writerow([record.id, organism, len(record.seq)])
-                    if count == 100000:
+                    if count == 50000:
                         out_file.close()
                         used_reads_file.close()
                         return
@@ -52,40 +52,35 @@ def create_dataset_from_end(reads_array, l_file, out_fasta, organism, used_reads
 
 
 if __name__ == "__main__":
-    bacteria_reads = "../../BashScripts/Helper/all_reads/bacteria.csv"
-    archaea_reads = "../../BashScripts/Helper/all_reads/archaea.csv"
-    fungi_reads = "../../BashScripts/Helper/all_reads/fungi.csv"
-    protozoa_reads = "../../BashScripts/Helper/all_reads/protozoa.csv"
-    virus_reads = "../../BashScripts/Helper/all_reads/virus.csv"
+    bacteria_reads = "../../BashScripts/Helper/all_reads/rest/bacteria.csv"
+    archaea_reads = "../../BashScripts/Helper/all_reads/rest/archaea.csv"
+    fungi_reads = "../../BashScripts/Helper/all_reads/rest/fungi.csv"
+    protozoa_reads = "../../BashScripts/Helper/all_reads/rest/protozoa.csv"
+    virus_reads = "../../BashScripts/Helper/all_reads/rest/virus.csv"
 
-    bacteria_used_reads = "../../BashScripts/Helper/all_reads/used/bacteria.csv"
-    archaea_used_reads = "../../BashScripts/Helper/all_reads/used/archaea.csv"
-    fungi_used_reads = "../../BashScripts/Helper/all_reads/used/fungi.csv"
-    protozoa_used_reads = "../../BashScripts/Helper/all_reads/used/protozoa.csv"
-    virus_used_reads = "../../BashScripts/Helper/all_reads/used/virus.csv"
-    host_used_reads = "../../BashScripts/Helper/all_reads/used/host.csv"
+    bacteria_used_reads = "../../BashScripts/Helper/all_reads/used/shark_train/bacteria.csv"
+    archaea_used_reads = "../../BashScripts/Helper/all_reads/used/shark_train/archaea.csv"
+    fungi_used_reads = "../../BashScripts/Helper/all_reads/used/shark_train/fungi.csv"
+    protozoa_used_reads = "../../BashScripts/Helper/all_reads/used/shark_train/protozoa.csv"
+    virus_used_reads = "../../BashScripts/Helper/all_reads/used/shark_train/virus.csv"
+    host_used_reads = "../../BashScripts/Helper/all_reads/used/shark_train/host.csv"
 
-    label_file = "../../BashScripts/Helper/datasets/human_train_labels.csv"
+    label_file = "../../BashScripts/Helper/datasets/shark_train_labels.csv"
 
     bacteria = get_files_array(bacteria_reads, "../../Genome/Bacteria/")
     archaea = get_files_array(archaea_reads, "../../Genome/Archaea/")
     fungi = get_files_array(fungi_reads, "../../Genome/Fungi/")
     protozoa = get_files_array(protozoa_reads, "../../Genome/Protozoa/")
     virus = get_files_array(virus_reads, "../../Genome/Virus/")
-    host = ["../../Genome/Human/human_01_aligned_reads.fasta"]
+    host = ["../../Genome/Shark/human_01_aligned_reads.fasta"]
 
     with open(label_file, "w") as label_file:
         label_writer = csv.writer(label_file)
         label_writer.writerow(["id", "y_true", " length"])
 
-    create_dataset(host, "../../BashScripts/Helper/datasets/human_train_labels.csv", "host.fasta", 1, host_used_reads)
-    create_dataset(bacteria, "../../BashScripts/Helper/datasets/human_train_labels.csv", "bacteria.fasta", 2,
-                   bacteria_used_reads)
-    create_dataset(virus, "../../BashScripts/Helper/datasets/human_train_labels.csv", "virus.fasta", 3,
-                   virus_used_reads)
-    create_dataset(fungi, "../../BashScripts/Helper/datasets/human_train_labels.csv", "fungi.fasta", 4,
-                   fungi_used_reads)
-    create_dataset(archaea, "../../BashScripts/Helper/datasets/human_train_labels.csv", "archaea.fasta", 5,
-                   archaea_used_reads)
-    create_dataset(protozoa, "../../BashScripts/Helper/datasets/human_train_labels.csv", "protozoa.fasta", 6,
-                   protozoa_used_reads)
+    create_dataset(host, "../../BashScripts/Helper/datasets/shark_train_labels.csv", "host.fasta", 1, host_used_reads)
+    create_dataset(bacteria, "../../BashScripts/Helper/datasets/shark_train_labels.csv", "bacteria.fasta", 2, bacteria_used_reads)
+    create_dataset(virus, "../../BashScripts/Helper/datasets/shark_train_labels.csv", "virus.fasta", 3, virus_used_reads)
+    create_dataset(fungi, "../../BashScripts/Helper/datasets/shark_train_labels.csv", "fungi.fasta", 4, fungi_used_reads)
+    create_dataset(archaea, "../../BashScripts/Helper/datasets/shark_train_labels.csv", "archaea.fasta", 5, archaea_used_reads)
+    create_dataset(protozoa, "../../BashScripts/Helper/datasets/shark_train_labels.csv", "protozoa.fasta", 6, protozoa_used_reads)
