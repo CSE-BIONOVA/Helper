@@ -60,7 +60,7 @@ if __name__ == "__main__":
     fungi_used_reads = "../../BashScripts/Helper/all_reads/used/fungi.csv" 
     protozoa_used_reads = "../../BashScripts/Helper/all_reads/used/protozoa.csv" 
     virus_used_reads = "../../BashScripts/Helper/all_reads/used/virus.csv" 
-    host_used_reads = "../../BashScripts/Helper/all_reads/used/human.csv" 
+    host_used_reads = "../../BashScripts/Helper/all_reads/used/host.csv" 
 
     label_file = "../../BashScripts/Helper/datasets/human_train_labels.csv"
     
