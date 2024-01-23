@@ -49,7 +49,7 @@ def create_dataset_from_end(reads_array, l_file, out_fasta, organism, used_reads
 
 if __name__ == "__main__":
 
-    bacteria_reads = "../../BashScripts/Helper/all_reads/bactria.csv" 
+    bacteria_reads = "../../BashScripts/Helper/all_reads/bacteria.csv" 
     archaea_reads = "../../BashScripts/Helper/all_reads/archaea.csv" 
     fungi_reads = "../../BashScripts/Helper/all_reads/fungi.csv" 
     protozoa_reads = "../../BashScripts/Helper/all_reads/protozoa.csv" 
