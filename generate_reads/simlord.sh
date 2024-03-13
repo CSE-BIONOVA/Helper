@@ -5,11 +5,11 @@ while IFS='.' read -r -a line
 do
     file_name="/home/mbadmin/Documents/${input^}/${line}"
     genome_accession=${line[0]}
-    simlord --read-reference "$file_name" -fl 15000 --c 1 --no-sam "sim-reads/${genome_accession}"
-    no_of_lines=$(wc -l < "${genome_accession}.fastq")
+    simlord --read-reference "$file_name" -fl 15000 -c 1 --no-sam "sim-reads/${genome_accession}"
+    no_of_lines=$(wc -l < "sim-reads/${genome_accession}.fastq")
     no_of_reads=$((no_of_lines / 4))
-    seqkit fq2fa "${genome_accession}.fastq" -o "${genome_accession}.fasta"
-    rm "${genome_accession}.fastq"
+    seqkit fq2fa "sim-reads/${genome_accession}.fastq" -o "sim-reads/${genome_accession}.fasta"
+    rm "sim-reads/${genome_accession}.fastq"
     echo "${genome_accession}.fasta,${no_of_reads}" >> "$csv_file"
     
 done < "$genome_files"
