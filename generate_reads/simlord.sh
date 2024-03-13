@@ -1,6 +1,6 @@
 read input
 csv_file="/home/mbadmin/Documents/BashScripts/Helper/all_reads/simlord/${input}_reads.csv"
-genome_files="/home/mbadmin/Documents/BashScripts/Helper/genome_filenames/og_${input}"
+genome_files="/home/mbadmin/Documents/BashScripts/Helper/genome_filenames/og_${input}.csv"
 while IFS='.' read -r -a line
 do
     file_name="/home/mbadmin/Documents/${input^}/${line}"
