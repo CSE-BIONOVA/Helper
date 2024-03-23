@@ -1,6 +1,7 @@
 read input
-csv_file="/home/mbadmin/Documents/BashScripts/Helper/all_reads/simlord/${input}_reads.csv"
-genome_files="/home/mbadmin/Documents/BashScripts/Helper/genome_filenames/temp_${input}.csv"
+read i
+csv_file="/home/mbadmin/Documents/BashScripts/Helper/all_reads/simlord/fungi_reads_${i}.csv"
+genome_files="/home/mbadmin/Documents/BashScripts/Helper/genome_filenames/temp_fungi_${i}.csv"
 while read line
 do
     echo $line
@@ -15,4 +16,3 @@ do
     echo "${genome_accession}.fasta,${no_of_reads}" >> "$csv_file"
     
 done < "$genome_files"
-
